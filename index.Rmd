@@ -1,0 +1,64 @@
+--- 
+title: |
+  <center> ![](DSA Logo.png){width=4in} 
+
+   Instructor Handbook </center>
+
+author: |
+ <center> `r Sys.Date()` </center>
+
+date:  ""
+  
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+url: https://datascienceacademy.ncsu.edu/
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is the new Data Science Academy Instructor Handbook
+link-citations: yes
+---
+
+# The Guide
+
+This resource is designed as a guide for instructors in the Data Science Academy at NC State. In this guide you will find information about DSA course expectations, structure, implementation, university resources, and more.
+
+Please use the table of contents to navigate to a section of interest.
+
+## About the DSA
+
+There is no need to recreate this wheel too.
+
+Visit the [About](https://datascienceacademy.ncsu.edu/about/) section on the [DSA Website](https://datascienceacademy.ncsu.edu/) to learn a bit about the history of the DSA.
+
+### DSA Staff
+
+Rachel Levy - Executive Director
+
+David Stokes - Teaching Coordinator
+
+ - Point of Contact
+ - Development & Administration
+ - Meetings Facilitation
+ - Information, Updates, Reminders
+ - Observations/Feedback
+ - Etc.
+
+Sunghwan Byun - Director of Educational Research
+
+ - Research Protocols
+ - Pedagogical Methods/Discussions
+
+Haley Houser - Digital Communications Coordinator
+
+ - Advertisements
+ - Communications Postings
+
+[Our Team](https://datascienceacademy.ncsu.edu/about/our-team/)
+
+### Course Collaboration Leaders
+
+Course Collaboration Leaders (CCLs) are typically undergraduate students who have experience with DSC courses (e.g., have taken at least one DSC course). The CCLs are a great resource for supporting students in DSC courses. 
+
+Throughout the semester the CCLs offer office hours (in-person and on Zoom) where instructors may refer students who may be interested in peer support, a forum for questions and discussion, or a place to do their work. The CCL office hours schedule is made available each semester and instructors should provide this information to students in their courses with reminders on a regular basis.
+

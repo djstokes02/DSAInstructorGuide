@@ -1,0 +1,53 @@
+# DSA Courses
+
+## The ADAPT Model: Background
+
+The All-Campus through Accessible Project-based Teaching & Learning ([ADAPT course model](https://datascienceacademy.ncsu.edu/courses/course-model/)) consists of three primary components:
+
+1) Project-Based Design.
+
+Each DSC course involves a project, or mini-projects, as a framework for students to apply and demonstrate their learning in an application-focused context.
+
+2) Identity-conscious Choices.
+
+Students may choose courses of study and subsequent career paths, in part, due to how they identify within a given field. A goal of the DSA, through DSC courses, is that students take a course and choose to take more courses based on their experiences in the DSC environments. Thus, we seek to be conscious of how we can foster students' data science identities and how data science is relevant to their interests and pursuits within and beyond this field.
+
+3) 10 Common Learning Elements.
+
+Data science is an interdisciplinary field. Any narrow perspective limits the importance of the multifaceted considerations that are essential to a holistic approach to data science. The 10 common learning elements are overarching objectives that can be considered across courses as a means to broaden students experiences with a given course topic.
+
+
+## Classroom Considerations
+
+Each of our courses are 1 credit. University [Contact/Credit Hour Guidelines](https://oucc.dasa.ncsu.edu/courses/contact-credit-hours/) set the expectation that this amounts to approximately 3 hours of student time per week (e.g., 50 minute class, two hours outside of class).
+
+ - Please keep the expected time guidelines in mind when designing your course and related activities. In addition, please use student feedback to adjust accordingly.
+ 
+### Implementation
+
+Your course is unique. Your experiences and your philosophy are unique. We appreciate the innovation you bring. 
+
+A frequent challenge that arises is how to relay the information that you want students to receive effectively and under the time constraints. 
+
+ **A Few Guidelines**
+
+As a guide, one method to address the course implementation structure is to consider developing your essential concepts based on the desired project outcomes. Consider the following:
+
+ - Planning based on the question "What are the few and essential points students need to know to accomplish this step in the project?".
+
+ - Can the essential concepts fit within a model such as Launch [20 minutes] -> Explore [20 minutes] -> Discuss [10 minutes], where the concepts are presented within the 20 or so minutes of the "launch", and time is aloted for students to actively participate through practice/development and discussion within a class, or with significant frequency (Explore & Discuss). 
+
+Of course, these time frames will vary for any class and there may be a better model for your content, or for a given objective.
+
+As we move through the semester, your ideas around the DSA teaching process will be greatly valued and our instructor meetings are a great platform for you all to share your thoughts, questions, concerns, successes, challenges and the like.
+
+**Additional Considerations**
+
+As you develop your course, consider *how you will assess the students' projects*. 
+
+ - In determining this criteria, it is helpful to clearly present the assessment criteria to students. For example, you may have a rubric on which project assessments are based, and you share this with the students in advance. This assessment criteria can also serve as a project guide.
+ 
+Balancing grading time and data science project work can be a challenge. Consider how you might be able to *incorporate structured and unstructured learning/feedback opportunities for students*. 
+
+ - For example, as you present your key lesson concepts, you may incorporate student questions that have an auto-grading feature (structured). Subsequently, you may allow them to practice similar concepts on their own datasets as a component of their project work (unstructured).
+      
