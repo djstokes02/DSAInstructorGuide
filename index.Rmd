@@ -35,9 +35,11 @@ Visit the [About](https://datascienceacademy.ncsu.edu/about/) section on the [DS
 
 Rachel Levy - Executive Director
 
+ - Supervisor
+
 David Stokes - Teaching Coordinator
 
- - Point of Contact
+ - Primary Point of Contact
  - Development & Administration
  - Meetings Facilitation
  - Information, Updates, Reminders
