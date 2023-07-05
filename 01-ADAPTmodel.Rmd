@@ -27,15 +27,15 @@ Each of our courses are 1 credit. University [Contact/Credit Hour Guidelines](ht
 
 Your course is unique. Your experiences and your philosophy are unique. We appreciate the innovation you bring. 
 
-A frequent challenge that arises is how to relay the information that you want students to receive effectively and under the time constraints. 
+A frequent challenge that arises in the DSC course teaching process involves how to go about effectively relaying the information that you want students to receive, under the course structure time constraints. 
 
  **A Few Guidelines**
 
 As a guide, one method to address the course implementation structure is to consider developing your essential concepts based on the desired project outcomes. Consider the following:
 
- - Planning based on the question "What are the few and essential points students need to know to accomplish this step in the project?".
+ - Planning your instruction based on the question "What are the few and essential points students need to know to accomplish this step in the project?". This may serve as the contents of a given lecture within the project-based focus.
 
- - Can the essential concepts fit within a model such as Launch [20 minutes] -> Explore [20 minutes] -> Discuss [10 minutes], where the concepts are presented within the 20 or so minutes of the "launch", and time is aloted for students to actively participate through practice/development and discussion within a class, or with significant frequency (Explore & Discuss). 
+ - Can the essential concepts fit within a model such as [Launch [20 minutes] -> Explore [20 minutes] -> Discuss [10 minutes]](https://drive.google.com/file/d/13AwDhsoMFh31YdHoxdP_5FaaqUdqkM1W/view), where the concepts are presented within the 20 or so minutes of the "launch", and time is allotted for students to actively participate through practice/development and discussion within a class, or with significant frequency (Explore & Discuss). 
 
 Of course, these time frames will vary for any class and there may be a better model for your content, or for a given objective.
 
@@ -45,7 +45,7 @@ As we move through the semester, your ideas around the DSA teaching process will
 
 As you develop your course, consider *how you will assess the students' projects*. 
 
- - In determining this criteria, it is helpful to clearly present the assessment criteria to students. For example, you may have a rubric on which project assessments are based, and you share this with the students in advance. This assessment criteria can also serve as a project guide.
+ - In determining this criteria, it is helpful to clearly present the assessment criteria to students. For example, you may have a rubric on which project assessments are based, and you can share this with the students in advance so that the project expectations are clear. Developed assessment criteria can also serve as a project building guide.
  
 Balancing grading time and data science project work can be a challenge. Consider how you might be able to *incorporate structured and unstructured learning/feedback opportunities for students*. 
 

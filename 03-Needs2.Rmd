@@ -4,7 +4,7 @@
 
 ### Week 1:
 
- 1) Check the [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/) to note important dates (e.g., Wellness Days, Spring/Fall Break, Drop/Revision Deadline), so that you can plan your instruction accordingly.
+ 1) Check the [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/) to note important dates (e.g., Wellness Days, Spring/Fall Break, Drop/Revision Deadline), so that you can plan your instruction/schedule accordingly.
  
  2) Add your course syllabus to your `Course Folder` (link to be provided).
  
@@ -16,19 +16,19 @@
 
  1) Remind students to complete `Student Course Reflection: Part 1 of 3` by the end of the week.
 
- 2) Notify students about the `6 Ways to Get Help` resource, and add this to your moodle page.
+ 2) Notify students about the `6 Ways to Get Help` resource, and add this to your moodle page/course management system.
  
- 3) **Research Consent Forms**. During Week 2 a DSA representative will come to your classroom. Please plan to allow five minutes at the end of class for this representative to speak to students about the DSA research consent process, while you are not present. 
+ 3) **Research Consent Forms**. During Week 2 a DSA representative will come to your classroom. Please plan to allow five minutes at the end of the week 2 class for this representative to speak to students about the DSA research consent process. You will be asked to leave the room (or Zoom space) during this presentation to preserve students' confidentiality. 
 
-  NOTE: As with the student reflections, please encourage participation in completing the consent forms, where students have the oprion to consent or decline. A link will be provided so that you can provide this to students who have not completed the form, and/or where not present in week 2.
+  NOTE: As with the student reflections, please encourage participation in completing the consent forms. Students will have the option to consent or decline. A link will be provided so that you can relay this to students who have not completed the form, and/or were not present in week 2.
   
  4) (Optional for pre-post feedback): Schedule a pre-observation discussion meeting with the Teaching Coordinator.
  
 ### Week 3:
 
- 1) Remind students about the `6 Ways to Get Help` resource
+ 1) Remind students about the `6 Ways to Get Help` resource.
 
- 2) `Student Course Reflection: Part 1 of 3` de-Identified feedback/responses will be returned to you
+ 2) `Student Course Reflection: Part 1 of 3` de-Identified feedback/responses will be returned to you.
 
 ### Week 4:
 
@@ -42,7 +42,7 @@
 
  1) Send out `Student Course Reflection: Part 2 of 3` (link to be provided).
  
- - Provide 5 minutes of class time for completion
+ - Provide 5 minutes of class time for completion.
  
 ### Week 7:
 
@@ -51,6 +51,8 @@
  2) **Progress Reports**. Please refer to this link [Academic Progress Reporting](https://dasa.ncsu.edu/faculty-resources/academic-progress-reporting/). Please complete a report for any student for whom you may be concerned (e.g., not attending, not completing assignments, at risk for not successfully completing the course, etc.). Instructions on completing these reports through mypack portal are available at the link above.
  
  Please submit any related student reports on or before this week.
+ 
+ Please notify the Teaching Coordinator of any outstanding concerns.
  
  3) Remind students to complete `Student Course Reflection: Part 2 of 3` by the end of the week.
  
@@ -76,11 +78,11 @@
 
 1) Remind students to complete `Student Course Reflection: Part 3 of 3` by the end of the week.
 
-2) Add the Teaching Coordinator to your course management space with administrative access (e.g., Moodle as a "hidden instructor" and non-expiring time frame)
+2) Add the Teaching Coordinator to your course management space with administrative access (e.g., Moodle as a "hidden instructor" and non-expiring time frame).
 
 ### Week 14 and beyond:
 
 1) Refer to the [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/) to see when final grades are due. Refer to this link [Grade Roster](https://sis.emas.ncsu.edu/faculty/faculty-center/#grades) for how to submit grades. 
 
-2) Add all student work to your `Course Folder`, assignments and project(s) (link provided)
+2) Add all student work to your `Course Folder`, assignments and project(s) (link provided).
 

@@ -34,4 +34,4 @@ ncsu-academic-calendar
 grades-grading
 instructional-tools
 additional-resources
-optional-instructional-feedback
+instructional-feedback-observations
