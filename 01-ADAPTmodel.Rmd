@@ -50,4 +50,10 @@ As you develop your course, consider *how you will assess the students' projects
 Balancing grading time and data science project work can be a challenge. Consider how you might be able to *incorporate structured and unstructured learning/feedback opportunities for students*. 
 
  - For example, as you present your key lesson concepts, you may incorporate student questions that have an auto-grading feature (structured). Subsequently, you may allow them to practice similar concepts on their own datasets as a component of their project work (unstructured).
+ 
+**Feedback from Educational Research**
+
+Dr. Sunghwan Byun and Jeanne McClure offer additional suggestions here: [Educational Research at the Data Science Academy - Insights from 2022-2023](https://docs.google.com/document/d/1jRILSc0DsFm2moet9Ep8bF1suEOfHfnLzfJ2t4tIfjA/edit?usp=sharing). This document contains information on what may work well and what my require more attention within the DSC course instructional process based on certain aspects of student feedback.
+
+
       
