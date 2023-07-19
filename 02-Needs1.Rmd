@@ -22,7 +22,7 @@ We appreciate acknowledgement of receipt with a "thumbs up", or otherwise, parti
  
 ### Student Work Collection
 
-As part of the DSA mission to provide appropriate courses at various levels (including within a given course), we collect data to assess our offerings and learning approach. The purpose of the data collection is to evaluate the DSA and how well we are serving our students so that adjustments can be made accordingly for continuous improvement. In addition we plan to share what we learn with other universities and researchers. Students will be asked for their consent to data collection/research participation at the beginning of the course with respect to the use of their de-identified data and the related work of the DSA.
+As part of the DSA mission to provide appropriate learning opportunities at various levels (including within a given course), we collect data to assess our offerings and learning approach. The purpose of the data collection is to evaluate the DSA and how well we are serving our students so that adjustments can be made accordingly for continuous improvement. In addition we plan to share what we learn with other universities and researchers. Students will be asked for their consent to data collection/research participation at the beginning of the course with respect to the use of their de-identified data and the related work of the DSA.
 
 <span style="color: #CC0000;"> *Please plan to collect your students' work for each assignment and the project(s)*. </span>
 
@@ -34,6 +34,8 @@ As part of the DSA mission to provide appropriate courses at various levels (inc
   
   `DSC201_011_FA23_A5_djstokes`
 
+ - NOTE: Build this into your assignment collection protocol so that the process in not an extra burden for you (e.g., require students to submit each of their assignments named in the way presented in the naming conventions).
+ 
 ### Student Course Reflections
 
 Three times throughout the semester, we will provide course reflections, via survey link, for you to give to your students. These survey/questionnaires are designed to provide you with insight into students' perspectives of your course so that you can utilize the information to improve processes. With respect to these reflection, please note the following below:
@@ -44,8 +46,6 @@ Three times throughout the semester, we will provide course reflections, via sur
  - You can request completion information for grading/extra-credit purposes.
 
 <span style="color: #CC0000;"> *Please plan to provide class time for students to complete the course reflections*. </span>
-
- - NOTE: Build this into your assignment collection protocol so that the process in not an extra burden for you (e.g., require students to submit each of their assignments named in the way presented in the naming conventions).
 
 ### 6 Ways to Get Help
  
