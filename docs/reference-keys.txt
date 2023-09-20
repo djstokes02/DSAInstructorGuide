@@ -33,6 +33,9 @@ syllabus-template
 ncsu-academic-calendar
 grades-grading
 instructional-tools
+wellness-days
+compliance-and-integrity
+absences-documentation
 additional-resources
 instructional-feedback-observations
 instructor-meetings-agendas-topics
