@@ -1,4 +1,4 @@
-# University Resources
+# University & DSA Resources
 
 ## Syllabus Template
 
@@ -10,10 +10,20 @@
  - [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/)
     - Select the relevant semester to see important dates for planning your instruction.
 
+## DSA Datasets for Instructor and Student Use
+
+ - [Real-Time Live Datasets Repository](https://github.com/varundeepakgudhe/Data_Science_Academy/blob/main/Datasets/NC_Education/Readme.md) 
+    - Created by NCSU Graduate Student Varun Deepak Gudhe as a project for the Data Science Academy under the direction of David Stokes.
+    - Contains publicly available NC and national datasets and codebooks.
+
 ## Grades & Grading
 
  - [Grading Information](https://registrar.ncsu.edu/facultygradinginfo/)
     - Regulations, Grade Changes, Grade Categories Information.
+
+## Emergency Preparedness Resource Guide
+
+ - [Active Threats](https://docs.google.com/document/d/1mIo_5NfuIwv8UYRubB7fdnDF1jShu14y3uZkY0gjX1Q/edit?usp=sharing)
 
 ## Instructional Tools
 

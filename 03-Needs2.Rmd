@@ -1,4 +1,4 @@
-# What Do I Need to Do (Per Week)?
+# What Do Instructors Need to Do On a Give Week?
 
 ## Weekly Reminders
 
@@ -8,15 +8,15 @@
  
  2) Add your course syllabus to your `Course Folder` (The link has been shared with you).
  
- 3) Send out `DSA Course Feedback Questionnaire: Part 1 of 3` (Provide your students with the link here: https://forms.gle/agxdUjJyj1uivNa49 ).
+ 3) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 1 of 3** </span> (Provide your students with the link here: TBD ).
  
-  - Provide 5 minutes of class time for completion
+  - **Provide 5 minutes of class time for completion**.
 
 ### Week 2:
 
- 1) Remind students to complete `DSA Course Feedback Questionnaire: Part 1 of 3` by the end of the week.
+ 1) Remind students to complete **DSA Course Feedback Questionnaire: Part 1 of 3** by the end of the week.
 
- 2) Notify students about the *Course Collaboration Leaders Support, Six Ways to Get Help* resource, and add this to your moodle page/course management system.
+ 2) Notify students about the **Course Collaboration Leaders Support, Six Ways to Get Help** resource, and add this to your moodle page/course management system.
  
  3) **Research Consent Forms**. During Week 2 a DSA representative will come to your classroom. Please plan to allow five minutes at the end of the week 2 class for this representative to speak to students about the DSA research consent process. You will be asked to leave the room (or Zoom space) during this presentation to preserve students' confidentiality. 
 
@@ -26,9 +26,9 @@
  
 ### Week 3:
 
- 1) Remind students about the *Course Collaboration Leaders Support, Six Ways to Get Help* resource.
+ 1) Remind students about the **Course Collaboration Leaders Support, Six Ways to Get Help** resource.
 
- 2) `DSA Course Feedback Questionnaire: Part 1 of 3` de-Identified feedback/responses will be returned to you.
+ 2) DSA Course Feedback Questionnaire: Part 1 of 3 de-Identified feedback/responses will be returned to you.
 
 ### Week 4:
 
@@ -36,11 +36,11 @@
 
 ### Week 5:
 
- 1) Remind students about the *Course Collaboration Leaders Support, Six Ways to Get Help* resource.
+ 1) Remind students about the **Course Collaboration Leaders Support, Six Ways to Get Help** resource.
 
 ### Week 6:
 
- 1) Send out `DSA Course Feedback Questionnaire: Part 2 of 3` (Provide your students with the link here: https://forms.gle/kgZRWqTHR4rDqqL59 ).
+ 1) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 2 of 3** </span> (Provide your students with the link here: TBD).
  
  - Provide 5 minutes of class time for completion.
  
@@ -54,15 +54,15 @@
  
  Please notify the Teaching Coordinator of any outstanding concerns.
  
- 3) Remind students to complete `DSA Course Feedback Questionnaire: Part 2 of 3` by the end of the week.
+ 3) Remind students to complete **DSA Course Feedback Questionnaire: Part 2 of 3** by the end of the week.
  
-  - Provide 5 minutes of class time for completion.
+  - **Provide 5 minutes of class time for completion**.
 
 ### Week 8 - Week 10:
 
- 1) Remind students about the *Course Collaboration Leaders Support, Six Ways to Get Help* resource.
+ 1) Remind students about the **Course Collaboration Leaders Support, Six Ways to Get Help** resource.
  
- 2) `DSA Course Feedback Questionnaire: Part 2 of 3` de-Identified feedback/responses will be returned to you.
+ 2) **DSA Course Feedback Questionnaire: Part 2 of 3** de-Identified feedback/responses will be returned to you.
 
 ### Week 11:
 
@@ -70,13 +70,13 @@
 
 ### Week 12:
 
-1) Send out `DSA Course Feedback Questionnaire: Part 3 of 3` (link to be provided).
+1) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 3 of 3** </span> (Provide your students with the link here: TBD).
 
- - Provide 5 minutes of class time for completion.
+ - **Provide 5 minutes of class time for completion**.
 
 ### Week 13:
 
-1) Remind students to complete `DSA Course Feedback Questionnaire: Part 3 of 3` by the end of the week.
+1) Remind students to complete **DSA Course Feedback Questionnaire: Part 3 of 3** by the end of the week.
 
 2) Add the Teaching Coordinator to your course management space with administrative access (e.g., Moodle as a "hidden instructor" and non-expiring time frame).
 
@@ -84,5 +84,5 @@
 
 1) Refer to the [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/) to see when final grades are due. Refer to this link [Grade Roster](https://sis.emas.ncsu.edu/faculty/faculty-center/#grades) for how to submit grades. 
 
-2) Add all student work to your `Course Folder`, assignments and project(s) (link provided).
+2) Add all student work to your **Course Folder**, assignments and project(s) (link provided).
 
