@@ -12,7 +12,7 @@
 
 ## DSA Datasets for Instructor and Student Use
 
- - [Datasets Repository](https://github.com/varundeepakgudhe/Data_Science_Academy) 
+ - **Datasets Repository** (https://github.com/varundeepakgudhe/Data_Science_Academy) 
     - Created by NCSU Graduate Student Varun Deepak Gudhe as a project for the Data Science Academy under the direction of David Stokes.
     - Contains publicly available NC and national datasets and codebooks.
 
