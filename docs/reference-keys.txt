@@ -32,7 +32,7 @@ week-14-and-beyond
 university-dsa-resources
 syllabus-template
 ncsu-academic-calendar
-dsa-datasets-for-instructor-and-student-use
+datasets
 grades-grading
 emergency-preparedness-resource-guide
 instructional-tools

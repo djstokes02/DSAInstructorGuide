@@ -10,10 +10,10 @@
  - [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/)
     - Select the relevant semester to see important dates for planning your instruction.
 
-## DSA Datasets for Instructor and Student Use
+## Datasets
 
- - [Datasets Repository](https://github.com/varundeepakgudhe/Data_Science_Academy) 
-    - Created by NCSU Graduate Student Varun Deepak Gudhe as a project for the Data Science Academy under the direction of David Stokes.
+ - [Local Datasets Information](https://github.com/varundeepakgudhe/Data_Science_Academy) 
+    - Compiled by NCSU Graduate Student Varun Deepak Gudhe.
     - Contains publicly available NC and national datasets and codebooks.
 
 ## Grades & Grading
