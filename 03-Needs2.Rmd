@@ -70,7 +70,7 @@
 
 ### Week 12:
 
-1) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 3 of 3** </span> (Provide your students with the link here: TBD).
+1) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 3 of 3** </span> (link provided to you).
 
  - **Provide 5 minutes of class time for completion**.
 
@@ -80,9 +80,11 @@
 
 2) Add the Teaching Coordinator to your course management space with administrative access (e.g., Moodle as a "hidden instructor" and non-expiring time frame).
 
-### Week 14 and beyond:
+### Week 14 - 16:
 
 1) Refer to the [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/) to see when final grades are due. Refer to this link [Grade Roster](https://sis.emas.ncsu.edu/faculty/faculty-center/#grades) for how to submit grades. 
 
 2) Add all student work to your **Course Folder**, assignments and project(s) (link provided).
+
+<span style="color: #CC0000;"> Complete the following form: </span> [Instructor Course and Work Collection Documentation - Spring 2024](https://forms.gle/7yiAckCrq53vqdut8)
 

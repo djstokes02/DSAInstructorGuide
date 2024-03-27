@@ -15,6 +15,11 @@
  - [Local Datasets Information](https://github.com/varundeepakgudhe/Data_Science_Academy) 
     - Compiled by NCSU Graduate Student Varun Deepak Gudhe.
     - Contains publicly available NC and national datasets and codebooks.
+    
+## DELTA Resources for Moodle
+
+ - [Creating Groups in Moodle](https://ncsu.service-now.com/kb_view.do?sysparm_article=KB0020552)
+ - [Moodle Gradebook: Basic Setup, Display and Functionality](https://teaching-resources.delta.ncsu.edu/moodle-gradebook/#moodle)
 
 ## Grades & Grading
 

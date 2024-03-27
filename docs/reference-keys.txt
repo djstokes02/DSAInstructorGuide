@@ -28,11 +28,12 @@ week-8---week-10
 week-11
 week-12
 week-13
-week-14-and-beyond
+week-14---16
 university-dsa-resources
 syllabus-template
 ncsu-academic-calendar
 datasets
+delta-resources-for-moodle
 grades-grading
 emergency-preparedness-resource-guide
 instructional-tools
