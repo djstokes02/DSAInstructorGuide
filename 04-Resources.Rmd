@@ -9,6 +9,10 @@
 
  - [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/)
     - Select the relevant semester to see important dates for planning your instruction.
+    
+## Navigating the Landscape of Higher Education in the Age of Artificial Intelligence
+
+ - [Resource](https://provost.ncsu.edu/ofe/navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence/)
 
 ## Datasets
 

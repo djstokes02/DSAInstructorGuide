@@ -61,7 +61,7 @@ This document includes Course Collaboration Leaders (CCLs) peer-support office h
 
 - Tracking attendance is required for all 200 level courses (see [REG 02.20.03 - Attendance Regulations](https://policies.ncsu.edu/regulation/reg-02-20-03-attendance-regulations/)). This is also a good practice for courses in general so that you can identify any students who may need extra communication or support (e.g., Student Progress Reports). 
 
-Here is a great resource from Jamie Harr on [How To Retrieve Meeting Attendance on Zoom](https://drive.google.com/file/d/19vuYwyGcMrrBjQVzWbaDph1aHUR7u2bu/view?usp=drive_link), especially helpful for online settings.
+For online courses: [How To Retrieve Meeting Attendance on Zoom](https://drive.google.com/file/d/19vuYwyGcMrrBjQVzWbaDph1aHUR7u2bu/view?usp=drive_link) (from Dr. Jamie Harr).
  
  - Please communicate to students why attendance is important. For example, collaboration and discussion are expectations for data scientists and individuals working within related fields/titles. These aspect may be an integral part of your course as well, so students should know that this is an expectation and should plan to attend with the intent to participate in discussions and collaborations.
  

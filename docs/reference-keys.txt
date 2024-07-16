@@ -32,6 +32,7 @@ week-14---16
 university-dsa-resources
 syllabus-template
 ncsu-academic-calendar
+navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence
 datasets
 delta-resources-for-moodle
 grades-grading
@@ -45,3 +46,4 @@ instructional-feedback-observations
 instructor-meetings-agendas-topics
 fall-2023
 spring-2024
+fall-2024

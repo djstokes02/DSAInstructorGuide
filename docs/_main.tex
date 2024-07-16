@@ -69,7 +69,7 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\usepackage{bookmark}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
@@ -79,7 +79,7 @@
 \title{\includegraphics[width=4in,height=\textheight]{DSA Logo.png}
 
 Instructor Handbook}
-\author{2024-04-16}
+\author{2024-07-15}
 \date{}
 
 \begin{document}
@@ -89,69 +89,27 @@ Instructor Handbook}
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{the-guide}{%
-\chapter{The Guide}\label{the-guide}}
+\chapter{The Guide}\label{the-guide}
 
 This resource is designed as a guide for instructors in the Data Science Academy at NC State. In this guide you will find information about DSA course expectations, structure, implementation, university resources, and more.
 
 Please use the table of contents to navigate to a section of interest.
 
-\hypertarget{about-the-dsa}{%
-\section{About the DSA}\label{about-the-dsa}}
+\section{About the DSA}\label{about-the-dsa}
 
 Visit the \href{https://datascienceacademy.ncsu.edu/about/}{About} section on the \href{https://datascienceacademy.ncsu.edu/}{DSA Website} to learn a bit about the history of the DSA.
 
-\hypertarget{dsa-staff}{%
-\subsection{DSA Staff}\label{dsa-staff}}
+\subsection{DSA Staff}\label{dsa-staff}
 
 Rachel Levy - Executive Director
 
-\begin{itemize}
-\tightlist
-\item
-  Supervisor
-\end{itemize}
-
 David Stokes - Teaching Coordinator
-
-\begin{itemize}
-\tightlist
-\item
-  Primary Point of Contact
-\item
-  Development \& Administration
-\item
-  Meetings Facilitation
-\item
-  Information, Updates, Reminders
-\item
-  Observations/Feedback
-\end{itemize}
 
 Sunghwan Byun - Director of Educational Research
 
-\begin{itemize}
-\tightlist
-\item
-  Research Protocols
-\item
-  Pedagogical Methods/Discussions
-\end{itemize}
-
-Haley Houser - Digital Communications Coordinator
-
-\begin{itemize}
-\tightlist
-\item
-  Advertisements
-\item
-  Communications Postings
-\end{itemize}
-
 \href{https://datascienceacademy.ncsu.edu/about/our-team/}{Our Team}
 
-\hypertarget{course-collaboration-leaders-support.}{%
-\subsection{Course Collaboration Leaders Support.}\label{course-collaboration-leaders-support.}}
+\subsection{Course Collaboration Leaders Support.}\label{course-collaboration-leaders-support.}
 
 \textbf{A peer support resource for students in DSC courses}
 
@@ -160,20 +118,18 @@ Course Collaboration Leaders (CCLs) are typically undergraduate students who hav
 \begin{itemize}
 \tightlist
 \item
-  Throughout the semester the CCLs offer office hours (in-person and on Zoom). Instructors may refer students in their classes to the CCLs to get peer support, find a space for questions and discussion, or simply a place to do their work.
+  Throughout the semester the CCLs offer office hours (in-person and on Zoom). Instructors may refer students in their classes to the CCLs to get peer support, find a space for questions and discussion, or simply for a place to do their work.
 \item
-  The CCL office hours schedule is made available each semester and instructors should provide this information to students in their courses and additional reminders on a regular basis.
+  The CCL office hours schedule is made available each semester and instructors should provide this information to students in their courses with additional reminders on a weekly basis.
 \end{itemize}
 
-For future semesters, please notify the Teaching Coordinator about any student(s) from your course(s) that you want to recommend to become a Course Collaboration Leader.
+We have CCLs for the current semester and the schedule for their support will be given to you. For future semesters, you may notify the Teaching Coordinator about any student(s) from your course(s) that you want to recommend to become a future Course Collaboration Leader.
 
 \href{https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing}{\textbf{Information about graduate student TA inquiries}}
 
-\hypertarget{dsa-courses}{%
-\chapter{DSA Courses}\label{dsa-courses}}
+\chapter{DSA Courses}\label{dsa-courses}
 
-\hypertarget{the-adapt-model-background}{%
-\section{The ADAPT Model: Background}\label{the-adapt-model-background}}
+\section{The ADAPT Model: Background}\label{the-adapt-model-background}
 
 The All-Campus through Accessible Project-based Teaching \& Learning (\href{https://datascienceacademy.ncsu.edu/courses/course-model/}{ADAPT course model}) consists of three primary components:
 
@@ -206,8 +162,7 @@ Students may choose courses of study and subsequent career paths, in part, due t
 
 Data science is an interdisciplinary field. Any narrow perspective limits the importance of the multifaceted considerations that are essential to a holistic approach to data science. The 10 common learning elements are overarching objectives that can be considered across courses as a means to broaden students experiences with a given course topic.
 
-\hypertarget{classroom-considerations}{%
-\section{Classroom Considerations}\label{classroom-considerations}}
+\section{Classroom Considerations}\label{classroom-considerations}
 
 Each of our courses are 1 credit. University \href{https://oucc.dasa.ncsu.edu/courses/contact-credit-hours/}{Contact/Credit Hour Guidelines} set the expectation that this amounts to approximately 3 hours of student time per week (e.g., 50 minute class, two hours outside of class).
 
@@ -217,12 +172,11 @@ Each of our courses are 1 credit. University \href{https://oucc.dasa.ncsu.edu/co
   Please keep the expected time guidelines in mind when designing your course and related activities. In addition, please use student feedback to adjust accordingly.
 \end{itemize}
 
-\hypertarget{implementation}{%
-\subsection{Implementation}\label{implementation}}
+\subsection{Implementation}\label{implementation}
 
 Your course is unique. Your experiences and your philosophy are unique. We appreciate the innovation you bring.
 
-A frequent challenge that arises in the DSC course teaching process involves how to go about effectively relaying the information that you want students to receive, under the course structure time constraints.
+A frequent challenge that arises in the DSC course teaching process involves how to go about effectively relaying the information that you want students to receive as you consider the course structure and time constraints.
 
 \textbf{A Few Guidelines}
 
@@ -232,7 +186,7 @@ As a guide, one method to address the course implementation structure is to cons
 \item
   Planning your instruction based on the question ``What are the few and essential points students need to know to accomplish this step in the project?''. This may serve as the contents of a given lecture within the project-based focus.
 \item
-  Can the essential concepts fit within a model such as \href{https://drive.google.com/file/d/13AwDhsoMFh31YdHoxdP_5FaaqUdqkM1W/view}{Launch {[}20 minutes{]} -\textgreater{} Explore {[}20 minutes{]} -\textgreater{} Discuss {[}10 minutes{]}}, where the concepts are presented within the 20 or so minutes of the ``launch'', and time is allotted for students to actively participate through practice/development and discussion within a class, or with significant frequency (Explore \& Discuss).
+  Can the essential concepts fit within a model such as \href{https://drive.google.com/file/d/13AwDhsoMFh31YdHoxdP_5FaaqUdqkM1W/view}{Launch (20 minutes) -\textgreater{} Explore (20 minutes) -\textgreater{} Discuss (10 minutes)}, where the concepts are presented within the 20 or so minutes of the ``launch'', and time is allotted for students to actively participate through practice/development and discussion within a class, or with significant frequency (Explore \& Discuss).
 \end{itemize}
 
 Of course, these time frames will vary for any class and there may be a better model for your content, or for a given objective.
@@ -259,23 +213,19 @@ Balancing grading time and data science project work can be a challenge. Conside
 
 \textbf{Feedback from Educational Research}
 
-Dr.~Sunghwan Byun and Jeanne McClure offer additional suggestions here: \href{https://docs.google.com/document/d/1jRILSc0DsFm2moet9Ep8bF1suEOfHfnLzfJ2t4tIfjA/edit?usp=sharing}{Educational Research at the Data Science Academy - Insights from 2022-2023}. This document contains information on what may work well and what my require more attention within the DSC course instructional process based on certain aspects of student feedback.
+Dr.~Sunghwan Byun and Dr.~Jeanne McClure offer additional suggestions here: \href{https://docs.google.com/document/d/1jRILSc0DsFm2moet9Ep8bF1suEOfHfnLzfJ2t4tIfjA/edit?usp=sharing}{Educational Research at the Data Science Academy - Insights from 2022-2023}. This document contains information on what may work well and what my require more attention within the DSC course instructional process based on certain aspects of student feedback.
 
-\hypertarget{what-do-instructors-need-to-do-throughout-the-semster}{%
-\chapter{What Do Instructors Need to Do Throughout the Semster?}\label{what-do-instructors-need-to-do-throughout-the-semster}}
+\chapter{What Do Instructors Need to Do Throughout the Semster?}\label{what-do-instructors-need-to-do-throughout-the-semster}
 
-\hypertarget{throughout-the-semester}{%
-\section{Throughout the Semester}\label{throughout-the-semester}}
+\section{Throughout the Semester}\label{throughout-the-semester}
 
-\hypertarget{bi-monthly-teacher-discussions}{%
-\subsection{Bi-monthly Teacher Discussions}\label{bi-monthly-teacher-discussions}}
+\subsection{Bi-monthly Teacher Discussions}\label{bi-monthly-teacher-discussions}
 
 Throughout the semester we will have weekly instructor meetings designed to build community through discussion and support around the DSA course teaching experience. We will discuss topics of interest, including the ADAPT model, and also provide opportunities for lesson presentations and reviews, among other possibilities.
 
 { \textbf{Please plan to attend 2 instructor meetings per month.} }
 
-\hypertarget{instructor-chat-group}{%
-\subsection{Instructor Chat Group}\label{instructor-chat-group}}
+\subsection{Instructor Chat Group}\label{instructor-chat-group}
 
 You will be added to a chat group through your NCSU credentials.
 
@@ -291,8 +241,7 @@ You will be added to a chat group through your NCSU credentials.
 
 We appreciate acknowledgement of receipt with a ``thumbs up'', or otherwise, particularly for reminders.
 
-\hypertarget{student-work-collection}{%
-\subsection{Student Work Collection}\label{student-work-collection}}
+\subsection{Student Work Collection}\label{student-work-collection}
 
 As part of the DSA mission to provide appropriate learning opportunities at various levels (including within a given course), we collect data to assess our offerings and learning approach. The purpose of the data collection is to evaluate the DSA and how well we are serving our students so that informed adjustments and improvements can be made. In addition we plan to share what we learn with other universities and researchers. For this process, students will be asked for their consent to data collection/research participation at the beginning of the course in terms of the use of their de-identified data and the related work of the DSA.
 
@@ -316,8 +265,7 @@ As part of the DSA mission to provide appropriate learning opportunities at vari
   NOTE: Build this into your assignment collection protocol so that the process in not an extra burden for you (i.e., require students to submit each of their assignments named in the way presented in the naming conventions).
 \end{itemize}
 
-\hypertarget{student-feedback-questionnaires}{%
-\subsection{Student Feedback Questionnaires}\label{student-feedback-questionnaires}}
+\subsection{Student Feedback Questionnaires}\label{student-feedback-questionnaires}
 
 Three times throughout the semester, we will provide course questionnaires, via survey link, for you to give to your students. These questionnaires are designed to provide you with insight into students' perspectives of your course and as a source of course evaluation. For these questionnaires, please note the following:
 
@@ -337,8 +285,7 @@ Three times throughout the semester, we will provide course questionnaires, via 
 
 { \textbf{Please plan to provide 5 minutes of class time for students to complete the course questionnaires}. }
 
-\hypertarget{course-collaboration-leaders-support}{%
-\subsection{Course Collaboration Leaders Support}\label{course-collaboration-leaders-support}}
+\subsection{Course Collaboration Leaders Support}\label{course-collaboration-leaders-support}
 
 \href{https://docs.google.com/document/d/1ZNli1SdLy-AdxarjaNLSRpQOmh9q9KsAvqzWCcb_Wrg/edit?usp=sharing}{Course Collaboration Leaders Support, Six Ways to Get DSA Course Help}
 
@@ -352,8 +299,7 @@ This document includes Course Collaboration Leaders (CCLs) peer-support office h
   NOTE: Build this reminder into your weekly routine so that students are continuously made aware of this resource and the CCLs office hours, in particular.
 \end{itemize}
 
-\hypertarget{course-attendance-mid-term-assessments}{%
-\subsection{Course Attendance \& Mid-term Assessments}\label{course-attendance-mid-term-assessments}}
+\subsection{Course Attendance \& Mid-term Assessments}\label{course-attendance-mid-term-assessments}
 
 \begin{itemize}
 \tightlist
@@ -361,7 +307,7 @@ This document includes Course Collaboration Leaders (CCLs) peer-support office h
   Tracking attendance is required for all 200 level courses (see \href{https://policies.ncsu.edu/regulation/reg-02-20-03-attendance-regulations/}{REG 02.20.03 - Attendance Regulations}). This is also a good practice for courses in general so that you can identify any students who may need extra communication or support (e.g., Student Progress Reports).
 \end{itemize}
 
-Here is a great resource from Jamie Harr on \href{https://drive.google.com/file/d/19vuYwyGcMrrBjQVzWbaDph1aHUR7u2bu/view?usp=drive_link}{How To Retrieve Meeting Attendance on Zoom}, especially helpful for online settings.
+For online courses: \href{https://drive.google.com/file/d/19vuYwyGcMrrBjQVzWbaDph1aHUR7u2bu/view?usp=drive_link}{How To Retrieve Meeting Attendance on Zoom} (from Dr.~Jamie Harr).
 
 \begin{itemize}
 \item
@@ -374,8 +320,7 @@ Here is a great resource from Jamie Harr on \href{https://drive.google.com/file/
 
 The mid-term is a good time to consider the need for \href{https://dasa.ncsu.edu/faculty-resources/academic-progress-reporting/}{Academic Progress Reports}. However, you may submit these reports sooner or later depending on need.
 
-\hypertarget{instructor-communication}{%
-\subsection{Instructor Communication}\label{instructor-communication}}
+\subsection{Instructor Communication}\label{instructor-communication}
 
 As an instructor, you are expected to notify the Teaching Coordinator of attendance conflicts. This includes:
 
@@ -395,14 +340,11 @@ Learning Technologies support can be sought through \href{https://delta.ncsu.edu
 
 \hfill\break
 
-\hypertarget{what-do-instructors-need-to-do-on-a-give-week}{%
-\chapter{What Do Instructors Need to Do On a Give Week?}\label{what-do-instructors-need-to-do-on-a-give-week}}
+\chapter{What Do Instructors Need to Do On a Give Week?}\label{what-do-instructors-need-to-do-on-a-give-week}
 
-\hypertarget{weekly-reminders}{%
-\section{Weekly Reminders}\label{weekly-reminders}}
+\section{Weekly Reminders}\label{weekly-reminders}
 
-\hypertarget{week-1}{%
-\subsection{Week 1:}\label{week-1}}
+\subsection{Week 1:}\label{week-1}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -411,7 +353,7 @@ Learning Technologies support can be sought through \href{https://delta.ncsu.edu
 \item
   Add your course syllabus to your \texttt{Course\ Folder} (The link will be shared with you).
 \item
-  Send out { \textbf{DSA Course Feedback Questionnaire: Part 1 of 3} } (Provide your students with the link here: \url{https://forms.gle/wKUukPR1b1CxKMkW6}).
+  Send out { \textbf{DSA Course Feedback Questionnaire: Part 1 of 3} } (Provide your students with the link here: TBD).
 \end{enumerate}
 
 \begin{itemize}
@@ -420,15 +362,14 @@ Learning Technologies support can be sought through \href{https://delta.ncsu.edu
   \textbf{Provide 5 minutes of class time for completion}.
 \end{itemize}
 
-\hypertarget{week-2}{%
-\subsection{Week 2:}\label{week-2}}
+\subsection{Week 2:}\label{week-2}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
 \item
   Remind students to complete \textbf{DSA Course Feedback Questionnaire: Part 1 of 3} by the end of the week.
 \item
-  Notify students about the \textbf{Course Collaboration Leaders Support, Six Ways to Get Help} \href{https://docs.google.com/document/d/1ZNli1SdLy-AdxarjaNLSRpQOmh9q9KsAvqzWCcb_Wrg/edit?usp=sharing}{(Linked Here)} resource, and add this to your moodle page/course management system.
+  Notify students about the \textbf{Course Collaboration Leaders Support, Six Ways to Get Help} \href{https://docs.google.com/document/d/1HHNjCbm_W4CEdBWgecMDRpI64hqvmsZZ1Tq8qpudjWo/edit?usp=sharing}{(Linked Here)} resource, and add this to your moodle page/course management system.
 \item
   \textbf{Research Consent Forms}. During Week 2 a DSA representative will come to your classroom. Please plan to allow five minutes at the end of the week 2 class for this representative to speak to students about the DSA research consent process. You will be asked to leave the room (or Zoom space) during this presentation to preserve students' confidentiality.
 \end{enumerate}
@@ -443,8 +384,7 @@ NOTE: As with the student reflections, please encourage participation in complet
   (Optional for pre-post feedback): Schedule a pre-observation discussion meeting with the Teaching Coordinator.
 \end{enumerate}
 
-\hypertarget{week-3}{%
-\subsection{Week 3:}\label{week-3}}
+\subsection{Week 3:}\label{week-3}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -454,8 +394,7 @@ NOTE: As with the student reflections, please encourage participation in complet
   DSA Course Feedback Questionnaire: Part 1 of 3 de-Identified feedback/responses will be returned to you.
 \end{enumerate}
 
-\hypertarget{week-4}{%
-\subsection{Week 4:}\label{week-4}}
+\subsection{Week 4:}\label{week-4}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -464,8 +403,7 @@ NOTE: As with the student reflections, please encourage participation in complet
   Suggestion (if not already done): introduce course project, expectations, and how it is/will be integrated into/throughout the course.
 \end{enumerate}
 
-\hypertarget{week-5}{%
-\subsection{Week 5:}\label{week-5}}
+\subsection{Week 5:}\label{week-5}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -474,14 +412,13 @@ NOTE: As with the student reflections, please encourage participation in complet
   Remind students about the \textbf{Course Collaboration Leaders Support, Six Ways to Get Help} resource.
 \end{enumerate}
 
-\hypertarget{week-6}{%
-\subsection{Week 6:}\label{week-6}}
+\subsection{Week 6:}\label{week-6}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
 \tightlist
 \item
-  Send out { \textbf{DSA Course Feedback Questionnaire: Part 2 of 3} } (Provide your students with the link here: \url{https://forms.gle/UxQ4z9GFTGhPVmec9}).
+  Send out { \textbf{DSA Course Feedback Questionnaire: Part 2 of 3} } (Provide your students with the link here: TBD).
 \end{enumerate}
 
 \begin{itemize}
@@ -490,8 +427,7 @@ NOTE: As with the student reflections, please encourage participation in complet
   Provide 5 minutes of class time for completion.
 \end{itemize}
 
-\hypertarget{week-7}{%
-\subsection{Week 7:}\label{week-7}}
+\subsection{Week 7:}\label{week-7}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -519,8 +455,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \textbf{Provide 5 minutes of class time for completion}.
 \end{itemize}
 
-\hypertarget{week-8---week-10}{%
-\subsection{Week 8 - Week 10:}\label{week-8---week-10}}
+\subsection{Week 8 - Week 10:}\label{week-8---week-10}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -530,8 +465,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \textbf{DSA Course Feedback Questionnaire: Part 2 of 3} de-Identified feedback/responses will be returned to you.
 \end{enumerate}
 
-\hypertarget{week-11}{%
-\subsection{Week 11:}\label{week-11}}
+\subsection{Week 11:}\label{week-11}
 
 \begin{itemize}
 \tightlist
@@ -539,14 +473,13 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   Communicate Final Project Plan (e.g., weeks due, presentations/reports - a form will be provided).
 \end{itemize}
 
-\hypertarget{week-12}{%
-\subsection{Week 12:}\label{week-12}}
+\subsection{Week 12:}\label{week-12}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
 \tightlist
 \item
-  Send out { \textbf{DSA Course Feedback Questionnaire: Part 3 of 3} } (link provided to you).
+  Send out { \textbf{DSA Course Feedback Questionnaire: Part 3 of 3} } (TBD).
 \end{enumerate}
 
 \begin{itemize}
@@ -555,8 +488,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \textbf{Provide 5 minutes of class time for completion}.
 \end{itemize}
 
-\hypertarget{week-13}{%
-\subsection{Week 13:}\label{week-13}}
+\subsection{Week 13:}\label{week-13}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -566,8 +498,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   Add the Teaching Coordinator to your course management space with administrative access (e.g., Moodle as a ``hidden instructor'' and non-expiring time frame).
 \end{enumerate}
 
-\hypertarget{week-14---16}{%
-\subsection{Week 14 - 16:}\label{week-14---16}}
+\subsection{Week 14 - 16:}\label{week-14---16}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi})}
@@ -577,13 +508,11 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   Add all student work to your \textbf{Course Folder}, assignments and project(s) (link provided).
 \end{enumerate}
 
-{ Complete the following form: } \href{https://forms.gle/7yiAckCrq53vqdut8}{Instructor Course and Work Collection Documentation - Spring 2024}
+{ Complete the following form: } \href{https://docs.google.com/forms/d/e/1FAIpQLScV3CbK-M4OCDCSreFOG0X-7m--y73s5uXzyyWClMUWA0QTFA/viewform?usp=sf_link}{Instructor Course and Work Collection Documentation - Spring 2024}
 
-\hypertarget{university-dsa-resources}{%
-\chapter{University \& DSA Resources}\label{university-dsa-resources}}
+\chapter{University \& DSA Resources}\label{university-dsa-resources}
 
-\hypertarget{syllabus-template}{%
-\section{Syllabus Template}\label{syllabus-template}}
+\section{Syllabus Template}\label{syllabus-template}
 
 \begin{itemize}
 \tightlist
@@ -597,8 +526,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \end{itemize}
 \end{itemize}
 
-\hypertarget{ncsu-academic-calendar}{%
-\section{NCSU Academic Calendar}\label{ncsu-academic-calendar}}
+\section{NCSU Academic Calendar}\label{ncsu-academic-calendar}
 
 \begin{itemize}
 \tightlist
@@ -612,8 +540,15 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \end{itemize}
 \end{itemize}
 
-\hypertarget{datasets}{%
-\section{Datasets}\label{datasets}}
+\section{Navigating the Landscape of Higher Education in the Age of Artificial Intelligence}\label{navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://provost.ncsu.edu/ofe/navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence/}{Resource}
+\end{itemize}
+
+\section{Datasets}\label{datasets}
 
 \begin{itemize}
 \tightlist
@@ -629,8 +564,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \end{itemize}
 \end{itemize}
 
-\hypertarget{delta-resources-for-moodle}{%
-\section{DELTA Resources for Moodle}\label{delta-resources-for-moodle}}
+\section{DELTA Resources for Moodle}\label{delta-resources-for-moodle}
 
 \begin{itemize}
 \tightlist
@@ -640,8 +574,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \href{https://teaching-resources.delta.ncsu.edu/moodle-gradebook/\#moodle}{Moodle Gradebook: Basic Setup, Display and Functionality}
 \end{itemize}
 
-\hypertarget{grades-grading}{%
-\section{Grades \& Grading}\label{grades-grading}}
+\section{Grades \& Grading}\label{grades-grading}
 
 \begin{itemize}
 \tightlist
@@ -655,8 +588,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \end{itemize}
 \end{itemize}
 
-\hypertarget{emergency-preparedness-resource-guide}{%
-\section{Emergency Preparedness Resource Guide}\label{emergency-preparedness-resource-guide}}
+\section{Emergency Preparedness Resource Guide}\label{emergency-preparedness-resource-guide}
 
 \begin{itemize}
 \tightlist
@@ -664,8 +596,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \href{https://docs.google.com/document/d/1mIo_5NfuIwv8UYRubB7fdnDF1jShu14y3uZkY0gjX1Q/edit?usp=sharing}{Active Threats}
 \end{itemize}
 
-\hypertarget{instructional-tools}{%
-\section{Instructional Tools}\label{instructional-tools}}
+\section{Instructional Tools}\label{instructional-tools}
 
 \begin{itemize}
 \tightlist
@@ -673,8 +604,7 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \href{https://delta.ncsu.edu/learning-technology/instructional-tools/}{Information on Moodle, Zoom, Panopto, and more}
 \end{itemize}
 
-\hypertarget{wellness-days}{%
-\section{Wellness Days}\label{wellness-days}}
+\section{Wellness Days}\label{wellness-days}
 
 \begin{itemize}
 \tightlist
@@ -682,17 +612,15 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   \href{https://wellness.ncsu.edu/wellness-day/}{Wolfpack Wellness}
 \end{itemize}
 
-\hypertarget{compliance-and-integrity}{%
-\section{Compliance and Integrity}\label{compliance-and-integrity}}
+\section{Compliance and Integrity}\label{compliance-and-integrity}
 
 \begin{itemize}
 \tightlist
 \item
-  \href{https://compliance.ncsu.edu/annual-notices/?utm_source=newsletter\&utm_medium=email\&utm_campaign=annual-campus-notifications}{NC State Annual Notifications}
+  \href{https://compliance.ncsu.edu/annual-notices/?utm_source=newsletter&utm_medium=email&utm_campaign=annual-campus-notifications}{NC State Annual Notifications}
 \end{itemize}
 
-\hypertarget{absences-documentation}{%
-\section{Absences Documentation}\label{absences-documentation}}
+\section{Absences Documentation}\label{absences-documentation}
 
 \begin{itemize}
 \tightlist
@@ -700,17 +628,15 @@ Please notify the Teaching Coordinator of any outstanding concerns.
   If the need arises beyond your course absence policy and typical student communications: \href{https://dasa.ncsu.edu/support-and-advocacy/find-help/absence-notification/}{Absence Verification}
 \end{itemize}
 
-\hypertarget{additional-resources}{%
-\section{Additional Resources}\label{additional-resources}}
+\section{Additional Resources}\label{additional-resources}
 
 \begin{itemize}
 \tightlist
 \item
-  \href{https://docs.google.com/document/d/1XHivvQ13iZ-qqvm77h7R1OTw4cIv1VwA/edit?usp=sharing\&ouid=112414287104912137071\&rtpof=true\&sd=true}{Additional Resources}
+  \href{https://docs.google.com/document/d/1XHivvQ13iZ-qqvm77h7R1OTw4cIv1VwA/edit?usp=sharing&ouid=112414287104912137071&rtpof=true&sd=true}{Additional Resources}
 \end{itemize}
 
-\hypertarget{instructional-feedback-observations}{%
-\chapter{Instructional Feedback \& Observations}\label{instructional-feedback-observations}}
+\chapter{Instructional Feedback \& Observations}\label{instructional-feedback-observations}
 
 De-identified student feedback from the three semester questionnaires will be given to you. Observations may be scheduled at points throughout the semester, given notice. Options to consider include:
 
@@ -730,18 +656,19 @@ As you consider these options, please note the timelines for when the observatio
 
 Outside of coordinated observations, observations may be scheduled for the purposes of understanding DSC course implementation. You will be notified in advance any such instance. You may receive a request to provide some class details (e.g., Zoom link information, general course topic/activity).
 
-\hypertarget{instructor-meetings-agendas-topics}{%
-\chapter{Instructor Meetings: Agendas \& Topics}\label{instructor-meetings-agendas-topics}}
+\chapter{Instructor Meetings: Agendas \& Topics}\label{instructor-meetings-agendas-topics}
 
-\hypertarget{fall-2023}{%
-\section{Fall 2023}\label{fall-2023}}
+\section{Fall 2023}\label{fall-2023}
 
 \href{https://docs.google.com/document/d/1Q_QcuQYQq2zpa6WMIYnB7TajFqMtxD8W2Eht7Zb3PRU/edit?usp=sharing}{Fall 2023 Instructor Discussion Agendas \& Topics}
 
-\hypertarget{spring-2024}{%
-\section{Spring 2024}\label{spring-2024}}
+\section{Spring 2024}\label{spring-2024}
 
 \href{https://docs.google.com/document/d/1eyNGD3cgrksM8mMTiXkDDqPpbQzYD_nBHx9GlixoDVM/edit?usp=sharing}{Spring 2024 Instructor Discussion Agendas \& Topics}
+
+\section{Fall 2024}\label{fall-2024}
+
+\href{https://docs.google.com/document/d/1d4uNQmo_m6-1macCfkGdmlWP_1Z1T8CoJOpRosap17w/edit?usp=sharing}{Fall 2024 Instructor Discussion Agendas \& Topics}
 
   \bibliography{book.bib,packages.bib}
 

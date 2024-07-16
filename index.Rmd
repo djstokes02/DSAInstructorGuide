@@ -33,25 +33,12 @@ Visit the [About](https://datascienceacademy.ncsu.edu/about/) section on the [DS
 
 Rachel Levy - Executive Director
 
- - Supervisor
-
+ 
 David Stokes - Teaching Coordinator
 
- - Primary Point of Contact
- - Development & Administration
- - Meetings Facilitation
- - Information, Updates, Reminders
- - Observations/Feedback
 
 Sunghwan Byun - Director of Educational Research
 
- - Research Protocols
- - Pedagogical Methods/Discussions
-
-Haley Houser - Digital Communications Coordinator
-
- - Advertisements
- - Communications Postings
 
 [Our Team](https://datascienceacademy.ncsu.edu/about/our-team/)
 
@@ -61,10 +48,10 @@ Haley Houser - Digital Communications Coordinator
 
 Course Collaboration Leaders (CCLs) are typically undergraduate students who have experience with DSC courses (e.g., have taken at least one DSC course). 
 
- - Throughout the semester the CCLs offer office hours (in-person and on Zoom). Instructors may refer students in their classes to the CCLs to get peer support, find a space for questions and discussion, or simply a place to do their work. 
- - The CCL office hours schedule is made available each semester and instructors should provide this information to students in their courses and additional reminders on a regular basis.
+ - Throughout the semester the CCLs offer office hours (in-person and on Zoom). Instructors may refer students in their classes to the CCLs to get peer support, find a space for questions and discussion, or simply for a place to do their work. 
+ - The CCL office hours schedule is made available each semester and instructors should provide this information to students in their courses with additional reminders on a weekly basis.
 
-For future semesters, please notify the Teaching Coordinator about any student(s) from your course(s) that you want to recommend to become a Course Collaboration Leader.
+We have CCLs for the current semester and the schedule for their support will be given to you. For future semesters, you may notify the Teaching Coordinator about any student(s) from your course(s) that you want to recommend to become a future Course Collaboration Leader.
 
 [**Information about graduate student TA inquiries**](https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing)
 
