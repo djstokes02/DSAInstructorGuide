@@ -47,3 +47,4 @@ instructor-meetings-agendas-topics
 fall-2023
 spring-2024
 fall-2024
+cover-image-path-to-the-social-sharing-image-like-imagescover.jpg
