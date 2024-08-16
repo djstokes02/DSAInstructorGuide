@@ -8,7 +8,7 @@
  
  2) Add your course syllabus to your `Course Folder` (The link will be shared with you).
  
- 3) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 1 of 3** </span> (Provide your students with the link here: TBD).
+ 3) Send out <span style="color: #CC0000;"> **DSA Course Feedback Questionnaire: Part 1 of 3** </span> (Provide your students with the link here: https://forms.gle/bH6qX6HFeQE2FteZA).
  
  -  ✅ Provide 5 minutes of class time for completion.
  
