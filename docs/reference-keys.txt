@@ -15,7 +15,7 @@ student-feedback-questionnaires
 course-collaboration-leaders-support
 course-attendance-mid-term-assessments
 instructor-communication
-what-do-instructors-need-to-do-on-a-give-week
+what-do-instructors-need-to-do-on-a-given-week
 weekly-reminders
 week-1
 week-2
