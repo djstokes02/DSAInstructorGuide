@@ -1,0 +1,88 @@
+# What Do Instructors Need to Do Throughout the Semster?
+
+## Throughout the Semester
+
+### Bi-monthly Teacher Discussions
+
+Throughout the semester we will have weekly instructor meetings designed to build community through discussion and support around the DSA course teaching experience. We will discuss topics of interest, including the ADAPT model, and also provide opportunities for lesson presentations and reviews, among other possibilities. 
+ 
+👉 <span style="color: #CC0000;"> **Please plan to attend 2 instructor meetings per month.** </span>
+
+### Instructor Chat Group
+
+You will be added to a chat group through your NCSU credentials. 
+
+👉 <span style="color: #CC0000;"> **Please plan to monitor information posted in this space.** </span>
+ 
+ - Updates and reminders will be posted to this space.
+ - General questions and instructor communication may occur in this space.
+
+We appreciate acknowledgement of receipt with a "thumbs up", or otherwise, particularly for reminders.
+ 
+### Student Work Collection
+
+As part of the DSA mission to provide appropriate learning opportunities at various levels (including within a given course), we collect data to assess our offerings and learning approach. The purpose of the data collection is to evaluate the DSA and how well we are serving our students so that informed adjustments and improvements can be made. In addition we plan to share what we learn with other universities and researchers. For this process, students will be asked for their consent to data collection/research participation at the beginning of the course in terms of the use of their de-identified data and the related work of the DSA.
+
+👉 <span style="color: #CC0000;"> **Please plan to collect your students' work for each assignment and the project(s)**. </span>
+
+ - NOTE: To facilitate student work collection, please use the following `naming conventions`, `course_section_semester_assignment_unityID`, where course is the 3 digit prefix and number, section is the three digit section number, semester in FA (Fall) or SP (Spring) followed by the last two digits of the year, A is for assignments and FP is for final project. The unityID is for the student whose work is being collected - each student has a unique unityID. Examples below.
+ 
+  `DSC295_001_FA23_A1_djstokes`
+  
+  `DSC495_601_SP24_FP_unityID`
+  
+  `DSC201_011_FA23_A5_unityID`
+
+ - NOTE: Build this into your assignment collection protocol so that the process in not an extra burden for you (i.e., require students to submit each of their assignments named in the way presented in the naming conventions).
+ 
+### Student Feedback Questionnaires
+
+Three times throughout the semester, we will provide course questionnaires, via survey link, for you to give to your students. These questionnaires are designed to provide you with insight into students' perspectives of your course and as a source of course evaluation. For these questionnaires, please note the following:
+ 
+ - Provide 5 minutes of classtime for students to complete the questionnaires.
+ - Encourage and incentivize participation (e.g., count as a grade, or extra credit),
+ - Student feedback will be de-identified and shared back with you,
+ - You can request completion information for grading/extra-credit purposes,
+ - There is an 80% completion expectation & goal.
+
+👉 <span style="color: #CC0000;"> **Please plan to provide 5 minutes of class time for students to complete the course questionnaires**. </span>
+
+### Course Collaboration Leaders Support
+
+[Course Collaboration Leaders Support, Six Ways to Get DSA Course Help](https://docs.google.com/document/d/1HHNjCbm_W4CEdBWgecMDRpI64hqvmsZZ1Tq8qpudjWo/edit?usp=sharing)
+
+This document includes Course Collaboration Leaders (CCLs) peer-support office hours, as well as other recommendations for student support. The CCLs are typically available on a daily basis, based on the schedule provided. They offer support to their peers in online and in person spaces noted on the document. 
+ 
+👉 <span style="color: #CC0000;"> **Please plan to provide the Course Collaboration Leaders Support, Six Ways to Get Help information to your students**. </span> 
+ 
+ - NOTE: Build this reminder into your weekly routine so that students are continuously made aware of this resource and the CCLs office hours, in particular.
+ 
+### Course Attendance & Mid-term Assessments
+
+- Tracking attendance is required for all 200 level courses (see [REG 02.20.03 - Attendance Regulations](https://policies.ncsu.edu/regulation/reg-02-20-03-attendance-regulations/)). This is also a good practice for courses in general so that you can identify any students who may need extra communication or support (e.g., Student Progress Reports). 
+
+For online courses: [How To Retrieve Meeting Attendance on Zoom](https://drive.google.com/file/d/19vuYwyGcMrrBjQVzWbaDph1aHUR7u2bu/view?usp=drive_link) (from Dr. Jamie Harr).
+ 
+ - Please communicate to students why attendance is important. For example, collaboration and discussion are expectations for data scientists and individuals working within related fields/titles. These aspect may be an integral part of your course as well, so students should know that this is an expectation and should plan to attend with the intent to participate in discussions and collaborations.
+ 
+ - For online courses, it may be useful to establish classroom expectations that students keep their cameras on, whenever possible, as part of the course engagement process.
+
+👉 <span style="color: #CC0000;"> **Please plan to facilitate student success through communicated expectations that may include classroom norms, attendance, and participation guidelines**. </span> 
+
+The mid-term is a good time to consider the need for [Academic Progress Reports](https://dasa.ncsu.edu/faculty-resources/academic-progress-reporting/). However, you may submit these reports sooner or later depending on need.
+
+### Instructor Communication
+
+ As an instructor, you are expected to notify the Teaching Coordinator of attendance conflicts. This includes:
+ 
+  - Conflicts with scheduled classes
+  - Conflicts with instructor discussions
+  - Issues with other deadlines, such as questionnaire timelines
+
+Note that instructor discussion attendance is part of your responsibility as an instructor in the DSA.
+
+Learning Technologies support can be sought through [DELTA](https://delta.ncsu.edu/learntech-request/). However, you are encouraged to post questions to the instructor gchat space where others may be able to help you sooner and/or may have the same or similar questions. Email is fine too.
+ 
+
+|
+|
