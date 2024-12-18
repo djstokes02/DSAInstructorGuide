@@ -1,0 +1,34 @@
+project:
+  type: book
+
+book:
+  title: <center> Instructor Guide </center>
+  author: ""
+  date: today 
+  date-format: medium
+  chapters:
+    - index.qmd
+    - 01-ADAPTmodel.qmd
+    - 02-Needs1.qmd
+    - 03-Needs2.qmd
+    - 04-Resources.qmd
+    - 05-Evaluation.qmd
+    - 06-TeachingMeetings.qmd
+
+bibliography: references.bib
+
+toc-title: On this page
+
+published-title: Updated
+
+margin-header: |
+  David J. Stokes
+  
+format:
+  html:
+    theme: spacelab
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+
+include-before-body: DSAlockUp.Rhtml

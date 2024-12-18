@@ -1,0 +1,63 @@
+# NCSU & DSA Resources
+
+## Syllabus Template
+
+ - [Example Syllabus](https://docs.google.com/document/d/12w-byO3kEmP4ofI8GIuDAbXkEOA3hwqVGXz3qRbX-l4/edit?usp=sharing)
+    - See the comments within this document and modify your syllabus accordingly.
+    
+## NCSU Academic Calendar
+
+ - [NCSU Academic Calendar](https://studentservices.ncsu.edu/calendars/academic/)
+    - Select the relevant semester to see important dates for planning your instruction.
+    
+## AI Guidelines
+
+ - [Navigating the Landscape of Higher Education in the Age of Artificial Intelligence](https://provost.ncsu.edu/ofe/navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence/)
+
+## Datasets
+
+ - [Local Datasets Information](https://github.com/varundeepakgudhe/Data_Science_Academy) 
+    - Compiled by NCSU Graduate Student Varun Deepak Gudhe.
+    - Contains publicly available NC and national datasets and codebooks.
+    
+## DELTA Resources -Moodle
+
+ - [Creating Groups in Moodle](https://ncsu.service-now.com/kb_view.do?sysparm_article=KB0020552)
+ - [Moodle Gradebook: Basic Setup, Display and Functionality](https://teaching-resources.delta.ncsu.edu/moodle-gradebook/#moodle)
+
+## Grades & Grading
+
+ - [Grading Information](https://registrar.ncsu.edu/facultygradinginfo/)
+    - Regulations, Grade Changes, Grade Categories Information.
+
+## Emergency Preparedness
+
+ - [Active Threats](https://docs.google.com/document/d/1mIo_5NfuIwv8UYRubB7fdnDF1jShu14y3uZkY0gjX1Q/edit?usp=sharing)
+
+## Instructional Tools
+
+ - [Information on Moodle, Zoom, Panopto, and more](https://delta.ncsu.edu/learning-technology/instructional-tools/)
+ 
+## Wellness Days
+
+ - [Wolfpack Wellness](https://wellness.ncsu.edu/wellness-day/)
+
+## Cares Reports
+
+ - [Prevention Services](https://prevention.dasa.ncsu.edu/nc-state-cares/about/)
+
+## Compliance & Integrity
+
+ - [NC State Annual Notifications](https://compliance.ncsu.edu/annual-notices/?utm_source=newsletter&utm_medium=email&utm_campaign=annual-campus-notifications)
+
+## Absences Documentation
+
+ - If the need arises beyond your course absence policy and typical student communications: [Absence Verification](https://dasa.ncsu.edu/support-and-advocacy/find-help/absence-notification/)
+
+## RStudio Server Access
+
+ - Documentation in progress
+
+
+
+
