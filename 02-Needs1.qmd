@@ -37,11 +37,11 @@ As part of the DSA mission to provide appropriate learning opportunities at vari
 
  - NOTE: To facilitate student work collection, please use the following `naming conventions`, `course_section_semester_assignment_unityID`, where course is the 3 digit prefix and number, section is the three digit section number, semester is FA (Fall) or SP (Spring) followed by the last two digits of the year, A is for assignments and FP is for final project. The unityID is for the student whose work is being collected - each student has a unique unityID. Examples below. Note: If students turn in group assignments, adjustments may be needed.
  
-  `DSA201_001_FA24_A1_djstokes`
+   - `DSA201_001_FA24_A1_djstokes`
   
-  `DSA495_601_SP25_FP_unityID`
+   - `DSA495_601_SP25_FP_unityID`
   
-  `DSA412_011_FA25_A5_unityID`
+   - `DSA412_011_FA25_A5_unityID`
 
  - NOTE: Build this into your assignment collection protocol so that the process in not an extra burden for you (i.e., require students to submit each of their assignments named in the way presented in the naming conventions).
  
