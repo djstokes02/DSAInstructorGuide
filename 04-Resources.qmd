@@ -58,6 +58,11 @@
 
  - Documentation in progress
 
+## DSA Credentials
 
+ - [DSA Minors & Certificate](https://datascienceacademy.ncsu.edu/courses/dsa-minors-and-certificates/)
+ 
+## Photo Release Form
 
+ - [Photo Release Form](https://brand.ncsu.edu/assets/photo-release-form.pdf)
 
