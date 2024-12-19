@@ -16,7 +16,7 @@
 
  1) Remind students to complete **DSA Course Feedback Questionnaire: Part 1 of 3** by the end of the week.
 
- 2) Notify students about the [Course Collaboration Leaders Support & More](https://docs.google.com/document/d/1NcZ8ZncBXo6qcjaT3q-iSM9G4haufubMjYXbulVi_Zs/edit?usp=sharing) resource, and add this to your moodle page/course management system.
+ 2) Notify students about the [Course Collaboration Leaders Support & More](https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/) resource, and add this to your moodle page/course management system.
  
  3) **Research Consent Forms**. During Week 2 a DSA representative will come to your classroom. Please plan to allow five minutes at the end of the week 2 class for this representative to speak to students about the DSA research consent process. You will be asked to leave the room (or Zoom space) during this presentation to preserve students' confidentiality. 
 
@@ -26,7 +26,7 @@
  
 ### Week 3:
 
- 1) Remind students about the [Course Collaboration Leaders Support & More](https://docs.google.com/document/d/1NcZ8ZncBXo6qcjaT3q-iSM9G4haufubMjYXbulVi_Zs/edit?usp=sharing) resource.
+ 1) Remind students about the [Course Collaboration Leaders Support & More](https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/) resource.
 
  2) DSA Course Feedback Questionnaire: Part 1 of 3 de-Identified feedback/responses will be returned to you.
 
