@@ -14,11 +14,19 @@
 
  - [Navigating the Landscape of Higher Education in the Age of Artificial Intelligence](https://provost.ncsu.edu/ofe/navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence/)
 
+## Course Ready - Textbooks
+
+ - [Course Ready](https://shop.ncsu.edu/course-ready)
+ - [How to Add a Course Ready Link to Your Moodle Page](https://ncsu.service-now.com/delta?id=kb_article_ml&sysparm_article=KB0022447)
+
 ## Datasets
 
  - [Local Datasets Information](https://github.com/varundeepakgudhe/Data_Science_Academy) 
     - Compiled by NCSU Graduate Student Varun Deepak Gudhe.
     - Contains publicly available NC and national datasets and codebooks.
+    
+ - [AI-READI](https://newsroom.uw.edu/news-releases/flagship-ai-ready-dataset-released-in-type-2-diabetes-study)
+ - [Bridge2AI - Voice Dataset](https://healthdatanexus.ai/content/b2ai-voice/1.0/)
     
 ## DELTA Resources -Moodle
 
