@@ -27,6 +27,8 @@
     
  - [AI-READI](https://newsroom.uw.edu/news-releases/flagship-ai-ready-dataset-released-in-type-2-diabetes-study)
  - [Bridge2AI - Voice Dataset](https://healthdatanexus.ai/content/b2ai-voice/1.0/)
+ - [Data Science Resource Repository](https://airtable.com/appGQDiyvo3P6gMPy/shr613n80hMkXuvsr/tblP48JMBeQDDNe2H/viwMiy3v8wu2R8SX5)
+    - See "Format" column and fields with "Dataset"
     
 ## DELTA Resources -Moodle
 
