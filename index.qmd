@@ -13,10 +13,10 @@ Visit the [About](https://datascienceacademy.ncsu.edu/about/) section on the [DS
  - Rachel Levy - Executive Director
 
  
- - David Stokes - Director of Teaching and Learning
+ - David Stokes - Director of Data Science and AI Academic Programs
 
 
- - Sunghwan Byun - Director of Educational Research
+ - Sunghwan Byun - DSA Director of Educational Research
 
 
 [Our Team](https://datascienceacademy.ncsu.edu/about/our-team/)
@@ -30,12 +30,13 @@ The DSA `Course Collaboration Leaders` (CCLs) support DSA teaching and learning 
 Course Collaboration Leaders (CCLs) are typically undergraduate students who have experience with DSA courses (e.g., have taken at least one DSA course). 
 
  - CCL office hours are in-person and on Zoom. 
- - The CCL office hours schedule is made available each semester and instructors should provide this information to students in their courses with additional reminders on a weekly basis.
+ - The CCL office hours schedule is made available each semester.
+ - Instructors should provide this information to students in their courses with reminders on a weekly basis.
 
-The current semester CCL schedule will be given to you so that you can advertise this resource in your courses and on your course learning management system pages. Please notify the Director of Teaching and Learning if you have students from your courses that you want to recommend to become a Course Collaboration Leader in a future semester or year.
+Find the [current semester CCL schedule here](https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/). 
+
+ - Share this resource with your classes and on your course learning management system pages.  - Please notify the Director of Data Science and AI Academic Programs if you have students from your courses that you want to recommend to become a Course Collaboration Leader in a future semester or year.
 
 Please forward other inquiries from students wanting to contribute to the DSA to datascienceacademy@ncsu.edu.  
 
-[Additional information about graduate student TA inquiries](https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing)
-
-
+[Information for graduate student TA inquiries](https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing

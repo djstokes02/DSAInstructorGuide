@@ -27,7 +27,7 @@ Each of our courses are 1 credit. University [Contact/Credit Hour Guidelines](ht
 
 A challenge that can arise in the DSA course teaching process involves how to go about effectively relaying the information that you want students to receive as you consider the course structure and time limitations. 
 
-These constraints make for interesting design challenges and many creative courses experiences follow.
+These constraints make for interesting design challenges and many creative course experiences follow.
 
  **A Few Guidelines**
 
