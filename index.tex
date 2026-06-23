@@ -1,4 +1,5 @@
 % Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
@@ -7,21 +8,22 @@
   letterpaper,
   DIV=11,
   numbers=noendperiod]{scrreprt}
-
+\usepackage{xcolor}
 \usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 \usepackage{lmodern}
-\ifPDFTeX\else  
-    % xetex/luatex font selection
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -39,9 +41,6 @@
 }{% if KOMA class
   \KOMAoptions{parskip=half}}
 \makeatother
-\usepackage{xcolor}
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 % Make \paragraph and \subparagraph free-standing
 \makeatletter
 \ifx\paragraph\undefined\else
@@ -67,8 +66,7 @@
 \makeatother
 
 
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -80,19 +78,54 @@
 \makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
 % Set default figure placement to htbp
-\makeatletter
 \def\fps@figure{htbp}
 \makeatother
 
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
 \KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
 \makeatletter
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \AtBeginDocument{%
@@ -134,15 +167,11 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
-
-\ifLuaTeX
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
 \usepackage{bookmark}
-
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
+  pdftitle={ Instructor Guide },
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -151,10 +180,12 @@
   pdfcreator={LaTeX via pandoc}}
 
 
+\title{\\
+Instructor Guide\\}
 \author{}
-\date{}
-
+\date{Jun 23, 2026}
 \begin{document}
+\maketitle
 
 <!-- Formating image above the title and adding the DSA website link -->
 
@@ -164,6 +195,14 @@
    </a>
 </div>
 
+\renewcommand*\contentsname{On this page}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\bookmarksetup{startatroot}
 
 \chapter{The Guide}\label{the-guide}
 
@@ -188,9 +227,12 @@ Learning}\label{dsa-staff---teaching-learning}
 \item
   Rachel Levy - Executive Director
 \item
-  David Stokes - Teaching Coordinator
+  David Stokes - Director of Data Science and AI Academic Programs
 \item
-  Sunghwan Byun - Director of Educational Research
+  Sunghwan Byun - DSA Director of Educational Research
+\item
+  Sarah Egan Warren - DSA Director of Instructor Observation \&
+  Evaluation
 \end{itemize}
 
 \href{https://datascienceacademy.ncsu.edu/about/our-team/}{Our Team}
@@ -200,10 +242,10 @@ Support.}\label{course-collaboration-leaders-support.}
 
 \textbf{What and who are the DSA course collaboration leaders}?
 
-The DSA Course Collaboration Leaders (CCLs) support DSA teaching and
-learning by offering office hours to their peers in DSA courses. They
-are a valuable resource for students who may have questions, are seeking
-guidance, or discussion \& community.
+The DSA \texttt{Course\ Collaboration\ Leaders} (CCLs) support DSA
+teaching and learning by offering office hours to their peers in DSA
+courses. They are a valuable resource for students who may have
+questions, or are seeking guidance, discussion \& community.
 
 Course Collaboration Leaders (CCLs) are typically undergraduate students
 who have experience with DSA courses (e.g., have taken at least one DSA
@@ -214,22 +256,1012 @@ course).
 \item
   CCL office hours are in-person and on Zoom.
 \item
-  The CCL office hours schedule is made available each semester and
-  instructors should provide this information to students in their
-  courses with additional reminders on a weekly basis.
+  The CCL office hours schedule is made available each semester.
+\item
+  Instructors should provide this information to students in their
+  courses with reminders on a weekly basis.
 \end{itemize}
 
-The current semester CCL schedule will be given to you so that you can
-advertise this resource in your courses and on your course pages. Please
-notify the Teaching Coordinator if you have students from your courses
-that you want to recommend to become a Course Collaboration Leader in a
-future semester or year.
+Find the
+\href{https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/}{current
+semester CCL schedule here}.
+
+\begin{itemize}
+\item
+  Share this resource with your classes and on your course learning
+  management system pages.
+\item
+  Please notify the Director of Data Science and AI Academic Programs if
+  you have students from your courses that you want to recommend to
+  become a Course Collaboration Leader in a future semester or year.
+\end{itemize}
 
 Please forward other inquiries from students wanting to contribute to
 the DSA to datascienceacademy@ncsu.edu.
 
-\href{https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing}{Additional
-information about graduate student TA inquiries}
+\href{https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing}{Information
+for graduate student TA inquiries}
+
+\bookmarksetup{startatroot}
+
+\chapter{DSA Courses}\label{dsa-courses}
+
+\section{The ADAPT Model: Background}\label{the-adapt-model-background}
+
+The \textbf{A}ll-campus \textbf{D}ata Science and \textbf{A}I
+\textbf{P}roject-based \textbf{T}eaching and learning model
+(\href{https://datascienceacademy.ncsu.edu/courses/course-model/}{ADAPT
+course model}) consists of three primary components:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  {Project-Based Learning.}
+\end{enumerate}
+
+Each DSA course involves a project, or mini-projects, as a framework for
+students to apply and demonstrate their learning in an
+application-focused context.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  {10 Common Learning Elements.}
+\end{enumerate}
+
+Data science is an interdisciplinary field. The 10 common learning
+elements are overarching objectives that can be considered across all
+DSA courses as a means to broaden students experiences within and beyond
+a given data science or AI topic.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  {Workforce Preparedness.}
+\end{enumerate}
+
+DSA courses are designed to prepare students for work - in general - in
+recognition of the importance, impact, and prevalence of data and AI in
+current and future settings across all fields. The workforce
+preparedness focus of the ADAPT model can be realized through providing
+students with opportunities to engage in relevant choices and decisions
+that directly and positively impact their DSA course processes,
+facilitating learning and skill retention that carries forward beyond
+the academic environment and into their next steps. Furthermore,
+informed choices and agency are skills that can be enhanced through
+experience and are central components of a daily workforce workflow.
+Skills in data science and AI are enhanced through core concepts and
+innovative special topics aligned with future-forward workforce
+developments and employer needs.
+
+\begin{itemize}
+\tightlist
+\item
+  Read more: \href{https://arxiv.org/abs/2604.02597}{The NC State
+  All-campus Data Science and AI Project-based Teaching and Learning
+  (ADAPT) Model: A mechanism for interdisciplinary engagement in
+  workforce-relevant learning}
+\end{itemize}
+
+\section{Classroom Considerations}\label{classroom-considerations}
+
+For each of our 1 credit courses: University
+\href{https://oucc.dasa.ncsu.edu/courses/contact-credit-hours/}{Contact/Credit
+Hour Guidelines} set the expectation that a 1-credit course offering
+should amount to approximately 3 hours of student time per week (e.g.,
+50 minute class, two hours outside of class).
+
+\begin{itemize}
+\tightlist
+\item
+  Please keep the expected time guidelines in mind when designing your
+  course and related activities. In addition, please use student
+  feedback to adjust accordingly.
+\end{itemize}
+
+\subsection{Implementation}\label{implementation}
+
+A challenge that can arise in the DSA course teaching process involves
+how to go about effectively relaying the information that you want
+students to receive as you consider the course structure and time
+limitations.
+
+These constraints make for interesting design challenges and many
+creative course experiences follow.
+
+\textbf{A Few Guidelines}
+
+As a guide, one method to address the course implementation structure is
+to consider developing your essential concepts based on the desired
+project outcomes. Consider the following:
+
+\begin{itemize}
+\item
+  Planning your instruction based on the question ``What are the few and
+  essential points students need to know to accomplish {[}this step in
+  the project{]}?''. This may serve as the contents of a given lecture
+  within the project-based focus.
+\item
+  Building your course assignments as components of the project can
+  allow students to create their products over time (as projects
+  typically occur in real world/workforce settings) and can keep course
+  workloads consistent and manageable. Furthermore, the project outcomes
+  and goals can motivate the learning outcomes and the related
+  assignments, and grounds them in application-focused
+  explicitly-relevant contexts. Projects built over time can culminate
+  with student presentations, reports, and similar communicative
+  experiences.
+\item
+  Another framework to consider for planning your course delivery is the
+  \href{https://drive.google.com/file/d/13AwDhsoMFh31YdHoxdP_5FaaqUdqkM1W/view}{Launch
+  (20 minutes) -\textgreater{} Explore (20 minutes) -\textgreater{}
+  Discuss (10 minutes)} framework, where the key concepts are presented
+  within 20 or so minutes of the ``launch'', and time is allotted for
+  students to actively participate through practice/development and
+  discussion within a class, or with significant frequency (Explore \&
+  Discuss). These time frames are a just a reference point and if
+  implemented will naturally vary from class to class.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Example: (50 minute class - launch, discuss, explore) Project Step 1
+    - Key Concepts -\textgreater{} Weekly Key Concepts Discussions
+    -\textgreater{} In class work and getting started on Project Step
+    1/assignment 1.
+  \end{itemize}
+\end{itemize}
+
+\textbf{Additional Considerations}
+
+As you develop your course, consider \emph{how you will assess the
+students' projects}.
+
+\begin{itemize}
+\tightlist
+\item
+  In determining this criteria, it is helpful to clearly present the
+  assessment criteria to students. For example, you may have a rubric on
+  which project assessments are based, and you can share this with the
+  students in advance so that the project expectations are clear.
+  Developed assessment criteria can also serve as a project building
+  guide.
+\end{itemize}
+
+Balancing grading time and data science project work can be a challenge.
+Consider how you might be able to \emph{incorporate structured and
+unstructured learning/feedback opportunities for students}.
+
+\begin{itemize}
+\tightlist
+\item
+  Example: As you present your key lesson concepts, you may incorporate
+  student questions that have an auto-grading feature (structured).
+  Subsequently, you may allow them to practice similar concepts on their
+  own datasets as a component of their project work (unstructured).
+\end{itemize}
+
+\textbf{Feedback from Educational Research}
+
+\begin{itemize}
+\tightlist
+\item
+  Here are some examples of implementing the 10 Common Learning Elements
+  based on a study by graduate researcher Laurie Short:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://ncsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7ba115d4-d47d-412d-b9b9-b46d012e048a}{Purpose,
+    Methodology, Findings \& Recommendations - Video}
+  \item
+    \href{https://www.canva.com/design/DAHMYl_SWow/2qk2aHm_g9S-rpCLHJ3IRw/view?utm_content=DAHMYl_SWow&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b27e8c45e}{Purpose,
+    Methodology, Findings \& Recommendations - Slide Deck}
+  \end{itemize}
+\item
+  Dr.~Sunghwan Byun and Dr.~Jeanne McClure offer additional suggestions
+  here:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://docs.google.com/document/d/1jRILSc0DsFm2moet9Ep8bF1suEOfHfnLzfJ2t4tIfjA/edit?usp=sharing}{Educational
+    Research at the Data Science Academy - Insights from 2022-2023}.
+  \item
+    This document contains information on what may work well and what my
+    require more attention within the DSA course instructional process,
+    based on certain aspects of student feedback.
+  \end{itemize}
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{To Do - Semesterly}\label{to-do---semesterly}
+
+\section{Throughout the Semester}\label{throughout-the-semester}
+
+\subsection{Bi-monthly Teacher
+Discussions}\label{bi-monthly-teacher-discussions}
+
+Throughout the semester we will have weekly instructor meetings designed
+to build community through discussion and support around the DSA course
+teaching experience. We will discuss topics of interest, which may
+include the ADAPT model, and also provide opportunities for lesson
+presentations and reviews, among other possibilities.
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, bottomrule=.15mm, colback=white, leftrule=.75mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, arc=.35mm, breakable, left=2mm, rightrule=.15mm]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+\vspace{-3mm}\textbf{{Attention}}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  {Attend 2 instructor meetings per month.}
+\end{itemize}
+
+\end{minipage}%
+\end{tcolorbox}
+
+\subsection{Instructor Chat Group}\label{instructor-chat-group}
+
+You will be added to a chat group through your NCSU credentials -
+\href{https://chat.google.com/room/AAQAdfaHlRc?cls=7}{DSA Instructors
+Group - Fall 2026}.
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, bottomrule=.15mm, colback=white, leftrule=.75mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, arc=.35mm, breakable, left=2mm, rightrule=.15mm]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+\vspace{-3mm}\textbf{{Attention}}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  {Monitor information in the group chat space.}
+\end{itemize}
+
+\end{minipage}%
+\end{tcolorbox}
+
+\begin{itemize}
+\tightlist
+\item
+  Updates and reminders will be posted to this space.
+\item
+  General questions and instructor communication may occur in this
+  space.
+\end{itemize}
+
+For updates and reminders, please acknowledge receipt with a ``thumbs
+up'', or another response.
+
+\subsection{Student Work Collection}\label{student-work-collection}
+
+As part of the DSA mission to provide excellent learning opportunities,
+we collect data to assess our offerings and learning approach. The
+purpose of the data collection is to evaluate the DSA and how well we
+are serving our students so that informed adjustments and improvements
+can be made. In addition we may plan to share what we learn with other
+universities and researchers. For this process, students will be asked
+for their consent to data collection/research participation at the
+beginning of the course in terms of the use of their de-identified data
+and the related work of the DSA.
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, bottomrule=.15mm, colback=white, leftrule=.75mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, arc=.35mm, breakable, left=2mm, rightrule=.15mm]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+\vspace{-3mm}\textbf{{Attention}}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  {Plan to collect your students' work for each assignment and project.}
+\end{itemize}
+
+\end{minipage}%
+\end{tcolorbox}
+
+\begin{itemize}
+\item
+  NOTE: To facilitate student work collection, please use the following
+  \texttt{naming\ conventions},
+  \texttt{course\_section\_semester\_assignment\_unityID}, where course
+  is the 3 digit prefix and number, section is the three digit section
+  number, semester is FA (Fall) or SP (Spring) followed by the last two
+  digits of the year, A is for assignments and FP is for final project.
+  The unityID is for the student whose work is being collected - each
+  student has a unique unityID. Examples below. Note: If students turn
+  in group assignments, adjustments may be needed.
+
+  \begin{itemize}
+  \item
+    \texttt{DSA201\_001\_FA26\_A1\_djstokes}
+  \item
+    \texttt{DSA495\_601\_FA26\_FP\_unityID}
+  \item
+    \texttt{DSA412\_011\_SP27\_A5\_unityID}
+  \end{itemize}
+\item
+  NOTE: Build this into your assignment collection protocol so that the
+  process in not an extra burden for you (i.e., require students to
+  submit each of their assignments named in the way presented in the
+  naming conventions).
+\end{itemize}
+
+\subsection{Student Feedback
+Questionnaires}\label{student-feedback-questionnaires}
+
+Three times throughout the semester, we will provide course
+questionnaires, via survey link, for you to give to your students. These
+questionnaires are designed to provide you with insight into students'
+perspectives of your course and as a source of course evaluation. For
+these questionnaires, please note the following:
+
+\begin{itemize}
+\item
+  \textbf{Provide 5 minutes of class-time} for students to complete the
+  questionnaires.
+\item
+  \textbf{Encourage and incentivize participation} (e.g., count as a
+  grade, or extra credit)
+\item
+  There is an \textbf{80\% completion expectation \& goal}.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Student feedback will be de-identified and shared back with you,
+  \item
+    You can request completion information for grading/extra-credit
+    purposes,
+  \end{itemize}
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, bottomrule=.15mm, colback=white, leftrule=.75mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, arc=.35mm, breakable, left=2mm, rightrule=.15mm]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+\vspace{-3mm}\textbf{{Attention}}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  {Provide 5 minutes of \emph{class time} for students to complete the
+  course questionnaires.}
+\end{itemize}
+
+\end{minipage}%
+\end{tcolorbox}
+
+\subsection{Course Collaboration Leaders
+Support}\label{course-collaboration-leaders-support}
+
+\href{https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/}{Course
+Collaboration Leaders Support \& More}
+
+The website link includes Course Collaboration Leaders (CCLs)
+peer-support office hours, as well as other recommendations for student
+support. The CCLs are typically available on a daily basis according to
+the schedule provided. They offer support to their peers in online and
+in person spaces as indicated in the website link.
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, bottomrule=.15mm, colback=white, leftrule=.75mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, arc=.35mm, breakable, left=2mm, rightrule=.15mm]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+\vspace{-3mm}\textbf{{Attention}}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  {Provide the Course Collaboration Leaders Support \& More information
+  to your students.}
+\end{itemize}
+
+\end{minipage}%
+\end{tcolorbox}
+
+\begin{itemize}
+\tightlist
+\item
+  NOTE: Build this reminder into your weekly routine so that students
+  are continuously made aware of this resource and the CCLs office
+  hours, in particular.
+\end{itemize}
+
+\subsection{Course Attendance \& Mid-term
+Assessments}\label{course-attendance-mid-term-assessments}
+
+\begin{itemize}
+\tightlist
+\item
+  Tracking attendance is required for all 200 level courses (see
+  \href{https://policies.ncsu.edu/regulation/reg-02-20-03-attendance-regulations/}{REG
+  02.20.03 - Attendance Regulations}). This is also a good practice for
+  courses in general so that you can identify any students who may need
+  extra communication or support (e.g., Student Progress Reports).
+\end{itemize}
+
+For online courses: You can generate attendance reports from Zoom, as
+one method of record.
+
+\begin{itemize}
+\item
+  Please communicate to students why attendance is important. For
+  example, collaboration and discussion are expectations for data
+  scientists, AI experts, and individuals working within related
+  fields/titles, and is a part of workforce preparedness. These aspect
+  are likely an integral part of your course as well, so students should
+  know that this is an expectation and should plan to attend with the
+  intent to participate in discussions and collaborations.
+\item
+  For online courses, it may be useful to establish classroom
+  expectations that students keep their cameras on, whenever possible,
+  as part of the course engagement and workforce preparedness process.
+\end{itemize}
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, bottomrule=.15mm, colback=white, leftrule=.75mm, colframe=quarto-callout-note-color-frame, toprule=.15mm, arc=.35mm, breakable, left=2mm, rightrule=.15mm]
+\begin{minipage}[t]{5.5mm}
+\textcolor{quarto-callout-note-color}{\faInfo}
+\end{minipage}%
+\begin{minipage}[t]{\textwidth - 5.5mm}
+
+\vspace{-3mm}\textbf{{Attention}}\vspace{3mm}
+
+\begin{itemize}
+\tightlist
+\item
+  {Communicate expectations to students that may include classroom
+  norms, attendance, and participation guidelines.}
+\end{itemize}
+
+\end{minipage}%
+\end{tcolorbox}
+
+The mid-term is a good time to consider the need for
+\href{https://dasa.ncsu.edu/faculty-resources/academic-progress-reporting/}{Academic
+Progress Reports}. However, you may submit these reports sooner or later
+depending on need.
+
+\subsection{Instructor Communication}\label{instructor-communication}
+
+As an instructor, you are expected to notify the Director of Teaching
+and Learning of attendance conflicts. This includes:
+
+\begin{itemize}
+\tightlist
+\item
+  Conflicts with scheduled classes,
+\item
+  Conflicts with instructor discussions,
+\item
+  Issues with other deadlines, such as questionnaire timelines.
+\end{itemize}
+
+Note that instructor discussion attendance is part of your
+responsibility as an instructor in the DSA.
+
+Learning Technologies support can be sought through
+\href{https://delta.ncsu.edu/learntech-request/}{DELTA}. However, you
+are encouraged to post questions to the
+\href{https://chat.google.com/room/AAQA-rEg4KQ?cls=7}{instructor group
+chat space} where others may be able to help you sooner and/or may have
+the same or similar questions. Email is fine too.
+
+\hfill\break
+
+\bookmarksetup{startatroot}
+
+\chapter{To Do - Weekly}\label{to-do---weekly}
+
+\section{Weekly Reminders}\label{weekly-reminders}
+
+\subsection{Week 1:}\label{week-1}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Check the
+  \href{https://studentservices.ncsu.edu/calendars/academic/}{NCSU
+  Academic Calendar} to note important dates (e.g., Wellness Days,
+  Spring/Fall Break, Drop/Revision Deadline), so that you can plan your
+  instruction/schedule accordingly.
+\item
+  Your course syllabus should be in your \texttt{Course\ Folder} -
+  \href{https://docs.google.com/spreadsheets/d/1BfmKDDVHphxg9P5aBqG5MKlu0ZaOudI4i4zswpZXQI0/edit?usp=sharing}{Access
+  the Link Here}.
+\item
+  Send out {DSA Course Feedback Questionnaire: Part 1 of 3 - Fall 2026}
+  (Provide your students with the link here:
+  \url{https://forms.gle/FK8k9H1GkZu7QFPZ9}).
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  ✅ Provide 5 minutes of class time for completion.
+\end{itemize}
+
+\subsection{Week 2:}\label{week-2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Notify students about the
+  \href{https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/}{Course
+  Collaboration Leaders Support \& More} resource, and add this to your
+  moodle page/course management system.
+\item
+  \textbf{Research Consent Forms}. During Week 2 a DSA representative
+  may come to your classroom. Please plan to allow five minutes at the
+  end of the week 2 class for this representative to speak to students
+  about the DSA research consent process. You will be asked to leave the
+  room (or Zoom space) during this presentation to preserve students'
+  confidentiality.
+\end{enumerate}
+
+NOTE: As with the student reflections, please encourage participation in
+completing the consent forms. Students will have the option to consent
+or decline. A link will be provided so that you can relay this to
+students who have not completed the form, and/or were not present in
+week 2.
+
+\subsection{Week 3:}\label{week-3}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Remind students about the
+  \href{https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/}{Course
+  Collaboration Leaders Support \& More} resource.
+\item
+  DSA Course Feedback Questionnaire: Part 1 of 3 de-Identified
+  feedback/responses will be returned to you.
+\end{enumerate}
+
+\subsection{Week 4:}\label{week-4}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Suggestion (if not already done): introduce course project,
+  expectations, and how it is/will be integrated into/throughout the
+  course.
+\end{enumerate}
+
+\subsection{Week 5:}\label{week-5}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Remind students about the Course Collaboration Leaders Support \& More
+  resource.
+\end{enumerate}
+
+\subsection{Week 6:}\label{week-6}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Send out {DSA Course Feedback Questionnaire: Part 2 of 3 - Fall 2026}
+  (Provide your students with the link here:
+  \url{https://forms.gle/PtTnpQXboAvW8VYB8}).
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  ✅ Provide 5 minutes of class time for completion.
+\end{itemize}
+
+\subsection{Week 7:}\label{week-7}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  \textbf{Progress Reports}. Please refer to this link
+  \href{https://dasa.ncsu.edu/faculty-resources/academic-progress-reporting/}{Academic
+  Progress Reporting}. Please complete a report for any student for whom
+  you may be concerned (e.g., not attending, not completing assignments,
+  at risk for not successfully completing the course, etc.).
+  Instructions on completing these reports through mypack portal are
+  available at the link above.
+\end{enumerate}
+
+\begin{itemize}
+\item
+  ✅ Please submit any related student reports on or before this week.
+\item
+  ✅ Please notify the Teaching Coordinator of any outstanding concerns.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Remind students to complete \textbf{DSA Course Feedback Questionnaire:
+  Part 2 of 3} by the end of the week.
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  ✅ Provide 5 minutes of class time for completion.
+\end{itemize}
+
+\subsection{Week 8 - Week 10:}\label{week-8---week-10}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Remind students about the Course Collaboration Leaders Support \& More
+  resource.
+\item
+  \textbf{DSA Course Feedback Questionnaire: Part 2 of 3} de-Identified
+  feedback/responses will be returned to you.
+\end{enumerate}
+
+\subsection{Week 11:}\label{week-11}
+
+\begin{itemize}
+\tightlist
+\item
+  (if not already done): Communicate Final Project Plan (e.g., weeks
+  due, presentations/reports criteria, etc.).
+\end{itemize}
+
+\subsection{Week 12:}\label{week-12}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Send out {DSA Course Feedback Questionnaire: Part 3 of 3 - Fall 2026}
+  (Provide your students with the link here:
+  \url{https://forms.gle/n77cAs6QdnzKQDSe6}).
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  ✅ Provide 5 minutes of class time for completion.
+\end{itemize}
+
+\subsection{Week 13:}\label{week-13}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Add the Director of Data Science and AI Academic Programs to your
+  course management space with administrative access (e.g., Moodle as a
+  ``hidden instructor'' and non-expiring time frame).
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  In moodle, at the ``My current courses'' section, scroll to your
+  current course and\ldots{}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    click on the ``gears'' icon,
+  \item
+    scroll down to ``users and roster,'' and click ``edit,''
+  \item
+    go to ``add a person by name or unityID,'' and type in djstokes, and
+    search
+  \item
+    for ``role'' select ``hidden instructor'' and add the ``begin
+    date,''\ldots{} you should be able to leave end date blank
+    (non-expiring).
+  \end{itemize}
+\end{itemize}
+
+\subsection{Week 14 - 16:}\label{week-14---16}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\item
+  Refer to the
+  \href{https://studentservices.ncsu.edu/calendars/academic/}{NCSU
+  Academic Calendar} to see when final grades are due. Refer to this
+  link
+  \href{https://sis.emas.ncsu.edu/faculty/faculty-center/\#grades}{Grade
+  Roster} for how to submit grades.
+\item
+  Add all student work to your \textbf{Course Folder}, assignments and
+  project(s) (Find your class link here:
+  \href{https://docs.google.com/spreadsheets/d/1BfmKDDVHphxg9P5aBqG5MKlu0ZaOudI4i4zswpZXQI0/edit?usp=sharing}{Course
+  Documentation Folder Links - Fall 2026}).
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  ✅ Complete the following form:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://forms.gle/EZbAB9R8btpNZC5V6}{Instructor Course and
+    Work Collection Documentation - Fall 2026}
+  \item
+    \href{https://forms.gle/ZEv9MpUCY2YeDwxn7}{DSA Instructors - ADAPT
+    model Information - 10 CLEs Perspectives \& Implementation - Fall
+    2026}
+  \end{itemize}
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{NCSU \& DSA Resources}\label{ncsu-dsa-resources}
+
+\section{Syllabus Template}\label{syllabus-template}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://docs.google.com/document/d/12w-byO3kEmP4ofI8GIuDAbXkEOA3hwqVGXz3qRbX-l4/edit?usp=sharing}{Example
+  Syllabus}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    See the comments within this document and modify your syllabus
+    accordingly.
+  \end{itemize}
+\end{itemize}
+
+\section{NCSU Academic Calendar}\label{ncsu-academic-calendar}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://studentservices.ncsu.edu/calendars/academic/}{NCSU
+  Academic Calendar}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Select the relevant semester to see important dates for planning
+    your instruction.
+  \end{itemize}
+\end{itemize}
+
+\section{AI Guidelines}\label{ai-guidelines}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://provost.ncsu.edu/ofe/navigating-the-landscape-of-higher-education-in-the-age-of-artificial-intelligence/}{Navigating
+  the Landscape of Higher Education in the Age of Artificial
+  Intelligence}
+\end{itemize}
+
+\section{Course Ready - Textbooks}\label{course-ready---textbooks}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://shop.ncsu.edu/course-ready}{Course Ready}
+\item
+  \href{https://ncsu.service-now.com/delta?id=kb_article_ml&sysparm_article=KB0022447}{How
+  to Add a Course Ready Link to Your Moodle Page}
+\end{itemize}
+
+\section{Datasets}\label{datasets}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://github.com/varundeepakgudhe/Data_Science_Academy}{Local
+  Datasets Information}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Compiled by NCSU Graduate Student Varun Deepak Gudhe.
+  \item
+    Contains publicly available NC and national datasets and codebooks.
+  \end{itemize}
+\item
+  \href{https://healthdatanexus.ai/content/}{Health Data Nexus}
+\item
+  \href{https://airtable.com/appGQDiyvo3P6gMPy/shr613n80hMkXuvsr/tblP48JMBeQDDNe2H/viwMiy3v8wu2R8SX5}{Data
+  Science Resource Repository}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    See ``Format'' column and fields with ``Dataset''
+  \end{itemize}
+\item
+  \href{https://www.icpsr.umich.edu/web/pages/ICPSR/index.html}{Inter-university
+  Consortium for Political and Social Research (ICPSR) data}
+\end{itemize}
+
+\section{DELTA Resources - Moodle}\label{delta-resources---moodle}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://ncsu.service-now.com/kb_view.do?sysparm_article=KB0020552}{Creating
+  Groups in Moodle}
+\item
+  \href{https://teaching-resources.delta.ncsu.edu/moodle-gradebook/\#moodle}{Moodle
+  Gradebook: Basic Setup, Display and Functionality}
+\end{itemize}
+
+\section{Grades \& Grading}\label{grades-grading}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://registrar.ncsu.edu/facultygradinginfo/}{Grading
+  Information}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Regulations, Grade Changes, Grade Categories Information.
+  \end{itemize}
+\end{itemize}
+
+\section{Emergency Preparedness}\label{emergency-preparedness}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://docs.google.com/document/d/1mIo_5NfuIwv8UYRubB7fdnDF1jShu14y3uZkY0gjX1Q/edit?usp=sharing}{Active
+  Threats}
+\end{itemize}
+
+\section{Instructional Tools}\label{instructional-tools}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://delta.ncsu.edu/learning-technology/instructional-tools/}{Information
+  on Moodle, Zoom, Panopto, and more}
+\end{itemize}
+
+\section{Wellness Days}\label{wellness-days}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://wellness.ncsu.edu/wellness-day/}{Wolfpack Wellness}
+\end{itemize}
+
+\section{Cares Reports}\label{cares-reports}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://prevention.dasa.ncsu.edu/nc-state-cares/about/}{Prevention
+  Services}
+\end{itemize}
+
+\section{Compliance \& Integrity}\label{compliance-integrity}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://compliance.ncsu.edu/annual-notices/?utm_source=newsletter&utm_medium=email&utm_campaign=annual-campus-notifications}{NC
+  State Annual Notifications}
+\end{itemize}
+
+\section{Absences Documentation}\label{absences-documentation}
+
+\begin{itemize}
+\tightlist
+\item
+  If the need arises beyond your course absence policy and typical
+  student communications:
+  \href{https://dasa.ncsu.edu/support-and-advocacy/find-help/absence-notification/}{Absence
+  Verification}
+\end{itemize}
+
+\section{RStudio Server Access}\label{rstudio-server-access}
+
+\begin{itemize}
+\tightlist
+\item
+  Reach out for additional information
+\end{itemize}
+
+\section{DSA Credentials}\label{dsa-credentials}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://datascienceacademy.ncsu.edu/courses/dsa-minors-and-certificates/}{DSA
+  Minors \& Certificate}
+\end{itemize}
+
+\section{Photo Release Form}\label{photo-release-form}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://brand.ncsu.edu/assets/photo-release-form.pdf}{Photo
+  Release Form}
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Feedback \& Observations}\label{feedback-observations}
+
+\begin{itemize}
+\tightlist
+\item
+  In process
+\end{itemize}
+
+\bookmarksetup{startatroot}
+
+\chapter{Discussion Topics}\label{discussion-topics}
+
+\section{Fall 2026}\label{fall-2026}
+
+\href{https://docs.google.com/document/d/1aL4-z8FIgNZQldb0MuGUZtvphOkZZwfkSVY9-vVBpbw/edit?usp=sharing}{Fall
+2026 Instructor Discussion Agendas \& Topics}
+
+\section{Spring 2026}\label{spring-2026}
+
+\href{https://docs.google.com/document/d/1KL-90JzGy1Vv5-Xzl5dGiZaY7VjHUzbENNfssYAXh7k/edit?usp=sharing}{Spring
+2026 Instructor Discussion Agendas \& Topics}
+
+\section{Fall 2025}\label{fall-2025}
+
+\href{https://docs.google.com/document/d/1ZCwP3w7STk2vsZqKts_hwguH-Bfr7YHz_g-sW-INa9E/edit?usp=sharing}{Fall
+2025 Instructor Discussion Agendas \& Topics}
+
+\section{Spring 2025}\label{spring-2025}
+
+\href{https://docs.google.com/document/d/1Ot8HheY2yTI0jnJnvwnYv_tSkjLFdO4wugBP6l6kRwU/edit?usp=sharing}{Spring
+2025 Instructor Discussion Agendas \& Topics}
+
+\section{Fall 2024}\label{fall-2024}
+
+\href{https://docs.google.com/document/d/1d4uNQmo_m6-1macCfkGdmlWP_1Z1T8CoJOpRosap17w/edit?usp=sharing}{Fall
+2024 Instructor Discussion Agendas \& Topics}
+
+\section{Spring 2024}\label{spring-2024}
+
+\href{https://docs.google.com/document/d/1eyNGD3cgrksM8mMTiXkDDqPpbQzYD_nBHx9GlixoDVM/edit?usp=sharing}{Spring
+2024 Instructor Discussion Agendas \& Topics}
+
+\section{Fall 2023}\label{fall-2023}
+
+\href{https://docs.google.com/document/d/1Q_QcuQYQq2zpa6WMIYnB7TajFqMtxD8W2Eht7Zb3PRU/edit?usp=sharing}{Fall
+2023 Instructor Discussion Agendas \& Topics}
 
 
 
