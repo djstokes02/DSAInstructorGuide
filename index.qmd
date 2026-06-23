@@ -1,0 +1,49 @@
+# The Guide
+
+This resource is designed as a guide for instructors in the Data Science and AI Academy at NC State. In this guide you will find information about DSA course expectations, course structure and implementation suggestions, teaching and learning resources, university policies and more.
+
+You can use the table of contents to navigate to a section of interest.
+
+## About the DSA
+
+Visit the [About](https://datascienceacademy.ncsu.edu/about/) section on the [DSA Website](https://datascienceacademy.ncsu.edu/) to learn a bit about the DSA.
+
+### DSA Staff - Teaching & Learning
+
+ - Rachel Levy - Executive Director
+
+ 
+ - David Stokes - Director of Data Science and AI Academic Programs
+
+
+ - Sunghwan Byun - DSA Director of Educational Research
+ 
+ 
+ - Sarah Egan Warren - DSA Director of Instructor Observation & Evaluation
+
+
+[Our Team](https://datascienceacademy.ncsu.edu/about/our-team/)
+
+### Course Collaboration Leaders Support.
+
+**What and who are the DSA course collaboration leaders**?
+
+The DSA `Course Collaboration Leaders` (CCLs) support DSA teaching and learning by offering office hours to their peers in DSA courses. They are a valuable resource for students who may have questions, or are seeking guidance, discussion & community.
+
+Course Collaboration Leaders (CCLs) are typically undergraduate students who have experience with DSA courses (e.g., have taken at least one DSA course). 
+
+ - CCL office hours are in-person and on Zoom. 
+ - The CCL office hours schedule is made available each semester.
+ - Instructors should provide this information to students in their courses with reminders on a weekly basis.
+
+Find the [current semester CCL schedule here](https://datascienceacademy.ncsu.edu/courses/course-collaboration-leaders/). 
+
+ - Share this resource with your classes and on your course learning management system pages.  
+ 
+ - Please notify the Director of Data Science and AI Academic Programs if you have students from your courses that you want to recommend to become a Course Collaboration Leader in a future semester or year.
+
+Please forward other inquiries from students wanting to contribute to the DSA to datascienceacademy@ncsu.edu.  
+
+[Information for graduate student TA inquiries](https://docs.google.com/document/d/1VPfx_Ib2ToiO3eP1ipACCrsnoFTWcJNVhCXyESGf5PY/edit?usp=sharing)
+
+
