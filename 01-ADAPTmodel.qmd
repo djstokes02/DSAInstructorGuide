@@ -56,7 +56,7 @@ Balancing grading time and data science project work can be a challenge. Conside
 
  - Here are some examples of implementing the 10 Common Learning Elements based on a study by graduate researcher Laurie Short: 
     - [Purpose, Methodology, Findings & Recommendations - Video](https://ncsu.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7ba115d4-d47d-412d-b9b9-b46d012e048a) 
-    - [Purpose, Methodology, Findings & Recommendations - Slide Deck](https://www.canva.com/design/DAHMYl_SWow/2qk2aHm_g9S-rpCLHJ3IRw/view?utm_content=DAHMYl_SWow&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2b27e8c45e)
+    - [Purpose, Methodology, Findings & Recommendations - Slide Deck](https://canva.link/otpztej3nqkchla)
 
  - Dr. Sunghwan Byun and Dr. Jeanne McClure offer additional suggestions here: 
     - [Educational Research at the Data Science Academy - Insights from 2022-2023](https://docs.google.com/document/d/1jRILSc0DsFm2moet9Ep8bF1suEOfHfnLzfJ2t4tIfjA/edit?usp=sharing). 
