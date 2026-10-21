@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.2)  23 JUN 2026 14:33
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.8.2)  21 OCT 2026 11:05
  restricted system commands enabled.
 **index.tex
 (./index.tex
@@ -64,8 +64,7 @@ Class scrreprt Info: File `scrsize11pt.clo' used instead of
 (scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2697.
 (/Users/davidstokes/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
 File: scrsize11pt.clo 2025/06/04 v3.45 KOMA-Script font size class option (11pt)
-luaotfload | db : Font names database not found, generating new one.
-luaotfload | db : This can take several minutes; please be patient.) (/Users/davidstokes/Library/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
+luaotfload | db : Font names database loaded from /Users/davidstokes/Library/TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (/Users/davidstokes/Library/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
 Package: typearea 2025/06/04 v3.45 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count273
@@ -1232,6 +1231,6 @@ Here is how much of LuaTeX's memory you used:
    9 hlist, 1 vlist, 3 rule, 1 dir, 7 glue, 4 kern, 1 penalty, 1 glyph, 18 attribute, 80 glue_spec, 18 attribute_list, 2 if_stack, 3 write, 1 pdf_dest, 4 pdf_colorstack nodes
    avail lists: 2:11,3:2,5:2,6:1,7:22,8:1,11:3,12:1
  68355 multiletter control sequences out of 65536+600000
- 42 fonts using 11299007 bytes
+ 42 fonts using 11298887 bytes
  108i,1n,114p,10918b,1126s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!
