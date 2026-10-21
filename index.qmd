@@ -10,7 +10,7 @@ Visit the [About](https://datascienceacademy.ncsu.edu/about/) section on the [DS
 
 ### DSA Staff - Teaching & Learning
 
- - Rachel Levy - Executive Director
+ - Sarah Heckman - Acting Executive Director
 
  
  - David Stokes - Director of Data Science and AI Academic Programs
